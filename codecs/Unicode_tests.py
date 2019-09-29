@@ -31,3 +31,7 @@ for i in unicharstr:
 for i in unicharstr:
     _mystrout=_mystrout+"\u"+(i)
 print(_mystrout)
+
+_s=''
+for i in unicharstr:
+    _s=_s+chr(int((i),16))
