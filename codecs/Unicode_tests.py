@@ -17,14 +17,17 @@ unicharByte=[]
 unicharByte=[textB[i:i+n] for i in range(0, len(textB), n)]
 
 print('\u60a8')
-_you='60a8'
+_you=u'\u60a8'
 _youB=b'60a8'
 _youG='您'
 
 print ('\u5e76')
-_andB=b'5676'
-_and='5676'
+_andB=b'5e76'
+_and=u'\u5e76'
 _andG='并'
-
+_mystrout=u''
 for i in unicharstr:
     print("\\u",(i),sep="",end="")
+for i in unicharstr:
+    _mystrout=_mystrout+"\u"+(i)
+print(_mystrout)
