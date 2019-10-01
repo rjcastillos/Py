@@ -12,7 +12,7 @@
 #https://dencode.com/en/string/hex
 #https://unicodelookup.com/#0x60a8/1
 #http://xahlee.info/comp/unicode_index.html
-#http//bit.ly/unipain
+#http://bit.ly/unipain
 #Ver. 0.01
 #  2019 09
 # Ver. 01 2019 09 21
