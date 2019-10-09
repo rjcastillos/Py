@@ -62,4 +62,5 @@ for i in unicharstr:
 _s=''
 for i in unicharstr:
     _s=_s+chr(int((i),16))
+print("\n")
 print(_s)
