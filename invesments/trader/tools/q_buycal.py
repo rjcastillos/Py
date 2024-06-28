@@ -1,5 +1,7 @@
 #!/usr/local/bin/python3.6
 #on Mac /usr/local/bin/python3.6
+#On Windows:
+#C:\Users\rcastillo\AppData\Local\Programs\Python\Python39\python.exe q_buycal.py
 #Or Native /usr/bin/python
 ##################
 #RC June 2018
@@ -29,7 +31,10 @@
 #
 # https://docs.python.org/3.5/index.html
 #
-#lastest ver. 0.08
+#Latest ver 0.9.0
+#2024 06 28
+#Improvements made using git in a multi devs enviroment using local dev and features to be pushed to github
+#ver. 0.08
 #2018 10 30
 # 03 Adds the options -T for Target and -distance
 #   -T calculates the targets of a given position with % UP for bull market
