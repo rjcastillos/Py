@@ -55,7 +55,8 @@ def mMove(percentage,price):
     return "{:.5f}".format(float(price)*(1+float(percentage)/100))
 def aFterFee(gross,ExchangetypeOfFee,percentage=0):
     ###2018 06 22 Nex Market Maker = 0.100% , Market Taker = 0.200% Nex Default is MM, Amp flat fee 0.25% , Default = 0.2%
-    Exchange={'fee':0.2,'nex':0.1,'nexmm':0.100,'nexmt':0.200,'amp':0.25}
+    ###2024 06 28 update on amp maker = 0.30
+    Exchange={'fee':0.2,'nex':0.1,'nexmm':0.100,'nexmt':0.200,'amp':0.30}
     if not ExchangetypeOfFee:
         fee = float(Exchange['nex'])
     else:
