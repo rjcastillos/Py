@@ -26,6 +26,15 @@
 
 
 <Notes>
+Practice in confluent with github credential
+1) create a topic
+with statement in security
+2)  #virtualenv env
+    #source env/bin/activate
+    #pip3 install confluent-kafka
+        Successfully installed pip-24.1.1
+
+
 -
 </Notes>
 <versioning history>
