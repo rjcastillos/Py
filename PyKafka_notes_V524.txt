@@ -1,0 +1,50 @@
+<Subject>
+<Conventions>
+    In this document as a convention all commands to input
+        in the CLI starts with '#' e.g. #cd $HOME, #cd ~
+        CLI command:
+            #<command>
+</Conventions>
+
+<911 commands>
+============
+- 
+</911 commands>
+
+
+<Misc>
+====
+-
+</Misc>
+
+<Links Readings & Ref. Material>
+================================
+-HTML docs : 
+	https://www.w3schools.com/html/html_forms_attributes.asp
+</Links Readings & Ref. Material>
+
+
+
+<Notes>
+Practice in confluent with github credential
+1) create a topic
+
+2)  #virtualenv env
+    #source env/bin/activate
+    #pip3 install confluent-kafka
+        Successfully installed pip-24.1.1
+
+
+-
+</Notes>
+<versioning history>
+v. 1/30/2014
+2:20 PM 6/29/2017
+2:34 PM 6/30/2017
+11:09 AM 4/10/2018
+12:50 PM 4/24/2018
+01:02 PM 4/25/2018
+2:01 PM 5/18/2018
+
+</versioning history>
+</Subject>
