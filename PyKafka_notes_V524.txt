@@ -28,12 +28,7 @@
 <Notes>
 Practice in confluent with github credential
 1) create a topic
-    curl \
-  -X POST \
-  -H "Content-Type: application/json" \
-  -H "Authorization: Basic WVVLRUVSM0c1VFhQNE1aSjpIbG52U3NNYWt1TjhxWFpaU1kxVERHT0hTR0l5WTFrSDJ5Zk55cEJyWURvWVFzMVoycVIxeXVpc09VL2E0My9k" \
-  https://pkc-nq356.eu-south-2.aws.confluent.cloud:443/kafka/v3/clusters/lkc-8kzzg7/topics \
-  -d '{"topic_name":"myfirstkafkatopic"}'
+  
 2)  #virtualenv env
     #source env/bin/activate
     #pip3 install confluent-kafka
