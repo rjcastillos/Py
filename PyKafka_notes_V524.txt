@@ -33,7 +33,9 @@ with statement in security
     #source env/bin/activate
     #pip3 install confluent-kafka
         Successfully installed pip-24.1.1
-
+3)Producer example
+    https://github.com/confluentinc/confluent-kafka-python/blob/master/examples/eos-transactions.py
+    
 
 -
 </Notes>
