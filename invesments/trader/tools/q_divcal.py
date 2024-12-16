@@ -157,8 +157,10 @@ else:
                 print ("yearYield = ",yearYield )
                 print ("OnePayment = ",OnePayment)
                 print ("OnePayPercentage =",OnePayPercentage)
+                print ("Dividend recomendations")
+                print ("************************")
                 for x in Examples:
-                    print ("$",x,"=>",x/Div," shares")
+                    print ("$",x,"=>",x/Div," shares","Investment =",x*Price)
 #
 #              END DIV CAL
 #                                 
