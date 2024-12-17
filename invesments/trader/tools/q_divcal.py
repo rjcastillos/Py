@@ -154,9 +154,9 @@ else:
  #              PRINT OUT
  #
                 print ("yearlyDivPayOff = ",yearlyDivPayOff )
-                print ("yearYield = ",yearYield )
-                print ("OnePayment = ",OnePayment)
-                print ("OnePayPercentage =",OnePayPercentage)
+                print ("yearYield = ",f"{yearYield:.2f}","%" )
+                print ("OnePayment = ",f"{OnePayment:.2f}","$")
+                print ("OnePayPercentage =",f"{OnePayPercentage:.2f}","%")
                 print ("Dividend recomendations")
                 print ("************************")
                 for x in Examples:
