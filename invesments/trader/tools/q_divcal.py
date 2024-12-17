@@ -157,6 +157,7 @@ else:
                 print ("yearYield = ",f"{yearYield:.2f}","%" )
                 print ("OnePayment = ",f"{OnePayment:.2f}","$")
                 print ("OnePayPercentage =",f"{OnePayPercentage:.2f}","%")
+                print ("Investment w/o commision =",f"{Qty*Price:.2f}","$")
                 print ("Dividend recomendations")
                 print ("************************")
                 for x in Examples:
