@@ -160,7 +160,7 @@ else:
                 print ("Dividend recomendations")
                 print ("************************")
                 for x in Examples:
-                    print ("$",x,"=>",x/Div," shares","Investment =",x*Price)
+                    print ("$",x,"=>",f"{x/Div:.2f}"," shares","Investment =",x*Price,"$")
 #
 #              END DIV CAL
 #                                 
