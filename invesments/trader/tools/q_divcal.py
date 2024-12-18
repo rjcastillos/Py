@@ -132,6 +132,7 @@ else:
                 if len(sys.argv) > 2:
                     for v in range(2, len(sys.argv)):
                         item,value=sys.argv[v].split("=")
+                        value = value.replace(',','.')
                         MyDiv[item]=value
                 print ("Dividends Div =",MyDiv['Div'])
                 print ("Price =",MyDiv['Price'])
