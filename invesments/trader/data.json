@@ -1,42 +1,44 @@
 {
- "Tickers":
-  [{
-        "name": "O",
-        "Div": "0.2",
+    "O": {
+        "name": "Realty Income Corporation (O)",
+        "Ticker": "O",
+        "Div": 0.12,
+        "Price": 53.35,
         "Periodicity": "M",
-        "Price":"54.31",
-        "NextExDate":"20250102",
-        "Position":
-        {
-            "On":"false",
-            "Strategy":"SnipeNine",
-            "Qty":"10",
-            "direction":"Long",
-            "DateIn":"",
-            "PriceIn":"",
-            "DateOut":"",
-            "PriceOut":""
-        }
-    },
-    {
-        "name": "PFE",
-        "Div": "0.43",
-        "Periodicity": "Q",
-        "Price":"25.25",
-        "NextExDate":"20250102",
-        "Position":
+        "Qty": 10,
+        "NextExDate": "20250102",
+        "Position": [
             {
-                "On":"false",
-                "Strategy":"SnipeNine",
-                "Qty":"10",
-                "direction":"Long",
-                "DateIn":"",
-                "PriceIn":"",
-                "DateOut":"",
-                "PriceOut":""
-            } 
+                "On": "True",
+                "Strategy": "SniperOne",
+                "Qty": 10.0,
+                "Direction": "Long",
+                "DateIn": "",
+                "PriceIn": 53.2,
+                "DateOut": "",
+                "PriceOut": ""
+            }
+        ]
+    },
+    "PFE": {
+        "name": "Pfizer Inc. (PFE)",
+        "Ticker": "PFE",
+        "Div": 0.42,
+        "Price": 25.50,
+        "Periodicity": "Q",
+        "Qty": 0,
+        "NextExDate": "20250315",
+        "Position": [
+            {
+                "On": "False",
+                "Strategy": "",
+                "Qty": 0.0,
+                "Direction": "",
+                "DateIn": "",
+                "PriceIn": 0.0,
+                "DateOut": "",
+                "PriceOut": ""
+            }
+        ]
     }
-
- ]
 }
-
