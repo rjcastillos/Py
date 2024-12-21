@@ -1,32 +1,30 @@
 {
-    "Ticker": [
-      {
+ "Tickers":
+  [{
         "name": "O",
         "Div": "0.2",
         "Periodicity": "M",
         "Price":"54.31",
         "NextExDate":"20250102",
-        "Position":[
-            {
-                "On":"false",
-                "Strategy":"SnipeNine",
-                "Qty":"10",
-                "direction":"Long",
-                "DateIn":"",
-                "PriceIn":"",
-                "DateOut":"",
-                "PriceOut":""
-            }
-                    ]
-
-      },
-      {
-      "name": "PFE",
-        "Div": "0.2",
+        "Position":
+        {
+            "On":"false",
+            "Strategy":"SnipeNine",
+            "Qty":"10",
+            "direction":"Long",
+            "DateIn":"",
+            "PriceIn":"",
+            "DateOut":"",
+            "PriceOut":""
+        }
+    },
+    {
+        "name": "PFE",
+        "Div": "0.43",
         "Periodicity": "Q",
         "Price":"25.25",
         "NextExDate":"20250102",
-        "Position":[
+        "Position":
             {
                 "On":"false",
                 "Strategy":"SnipeNine",
@@ -36,8 +34,9 @@
                 "PriceIn":"",
                 "DateOut":"",
                 "PriceOut":""
-            }
-                ]
-        }
-    ]
+            } 
+    }
+
+ ]
 }
+
