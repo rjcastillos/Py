@@ -1,0 +1,1 @@
+{"o": {"name": "Realty Income Corporation (O)", "Ticker": "O", "Div": 0.12, "Price": 53.35, "Periodicity": "M", "Qty": 10, "NextExDate": "20250102", "Position": [{"On": "True", "Strategy": "SniperOne", "Qty": 10.0, "Direction": "Long", "DateIn": "", "PriceIn": 53.2, "DateOut": "", "PriceOut": ""}]}}

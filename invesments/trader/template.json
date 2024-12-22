@@ -1,0 +1,23 @@
+{
+    "NEW": {
+        "name": "",
+        "Ticker": "NEW",
+        "Div": 0.0000,
+        "Price":0.00,
+        "Periodicity": "Q",
+        "Qty": 0,
+        "NextExDate": "",
+        "Position": [
+            {
+                "On": "False",
+                "Strategy": "SniperNine",
+                "Qty": 0,
+                "Direction": "Long",
+                "DateIn": "",
+                "PriceIn": 0.0,
+                "DateOut": "",
+                "PriceOut": ""
+            }
+        ]
+    }
+}
