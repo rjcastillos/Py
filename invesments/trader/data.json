@@ -1,1 +1,170 @@
-{"O": {"name": "Realty Income Corporation (O)", "Ticker": "O", "Div": 0.263, "Price": 52.79, "Periodicity": "M", "Qty": 10, "NextExDate": "20250102", "Position": [{"On": "True", "Strategy": "SniperOne", "Qty": 10.0, "Direction": "Long", "DateIn": "", "PriceIn": 53.2, "DateOut": "", "PriceOut": ""}]}, "PFE": {"name": "Pfizer Inc. (PFE)", "Ticker": "PFE", "Div": 0.42, "Price": 25.5, "Periodicity": "Q", "Qty": 0, "NextExDate": "20250315", "Position": [{"On": "False", "Strategy": "", "Qty": 0.0, "Direction": "", "DateIn": "", "PriceIn": 0.0, "DateOut": "", "PriceOut": ""}]}, "NVDA": {"name": "", "Ticker": "NVDA", "Div": 0.0, "Price": 0.0, "Periodicity": "Q", "Qty": 0, "NextExDate": "", "Position": [{"On": "False", "Strategy": "SniperNine", "Qty": 0, "Direction": "Long", "DateIn": "", "PriceIn": 0.0, "DateOut": "", "PriceOut": ""}]}, "AGNC": {"name": "", "Ticker": "AGNC", "Div": 0.0, "Price": 0.0, "Periodicity": "Q", "Qty": 0, "NextExDate": "", "Position": [{"On": "False", "Strategy": "SniperNine", "Qty": 0, "Direction": "Long", "DateIn": "", "PriceIn": 0.0, "DateOut": "", "PriceOut": ""}]}, "OXLC": {"name": "", "Ticker": "OXLC", "Div": 0.0, "Price": 0.0, "Periodicity": "Q", "Qty": 0, "NextExDate": "", "Position": [{"On": "False", "Strategy": "SniperNine", "Qty": 0, "Direction": "Long", "DateIn": "", "PriceIn": 0.0, "DateOut": "", "PriceOut": ""}]}, "QYLD": {"name": "", "Ticker": "QYLD", "Div": 0.0, "Price": 0.0, "Periodicity": "Q", "Qty": 0, "NextExDate": "", "Position": [{"On": "False", "Strategy": "SniperNine", "Qty": 0, "Direction": "Long", "DateIn": "", "PriceIn": 0.0, "DateOut": "", "PriceOut": ""}]}, "OXY": {"name": "", "Ticker": "OXY", "Div": 0.0, "Price": 0.0, "Periodicity": "Q", "Qty": 0, "NextExDate": "", "Position": [{"On": "False", "Strategy": "SniperNine", "Qty": 0, "Direction": "Long", "DateIn": "", "PriceIn": 0.0, "DateOut": "", "PriceOut": ""}]}, "KO": {"name": "", "Ticker": "KO", "Div": 0.0, "Price": 0.0, "Periodicity": "Q", "Qty": 0, "NextExDate": "", "Position": [{"On": "False", "Strategy": "SniperNine", "Qty": 0, "Direction": "Long", "DateIn": "", "PriceIn": 0.0, "DateOut": "", "PriceOut": ""}]}}
+{
+    "O": {
+        "name": "Realty Income Corporation (O)",
+        "Ticker": "O",
+        "Div": 0.263,
+        "Price": 52.79,
+        "Periodicity": "M",
+        "Qty": 10,
+        "NextExDate": "20250102",
+        "Position": [
+            {
+                "On": "False",
+                "Strategy": "",
+                "Qty": 0.0,
+                "Direction": "",
+                "DateIn": "",
+                "PriceIn": 0.0,
+                "DateOut": "",
+                "PriceOut": ""
+            }
+        ]
+    },
+    "PFE": {
+        "name": "Pfizer Inc. (PFE)",
+        "Ticker": "PFE",
+        "Div": 0.42,
+        "Price": 25.5,
+        "Periodicity": "Q",
+        "Qty": 0,
+        "NextExDate": "20250315",
+        "Position": [
+            {
+                "On": "False",
+                "Strategy": "",
+                "Qty": 0.0,
+                "Direction": "",
+                "DateIn": "",
+                "PriceIn": 0.0,
+                "DateOut": "",
+                "PriceOut": ""
+            }
+        ]
+    },
+    "NVDA": {
+        "name": "",
+        "Ticker": "NVDA",
+        "Div": 0.0,
+        "Price": 0.0,
+        "Periodicity": "Q",
+        "Qty": 0,
+        "NextExDate": "",
+        "Position": [
+            {
+                "On": "False",
+                "Strategy": "SniperNine",
+                "Qty": 0,
+                "Direction": "Long",
+                "DateIn": "",
+                "PriceIn": 0.0,
+                "DateOut": "",
+                "PriceOut": ""
+            }
+        ]
+    },
+    "AGNC": {
+        "name": "AGNC Investment Corp. (AGNC)",
+        "Ticker": "AGNC",
+        "Div": 0.12,
+        "Price": 9.42,
+        "Periodicity": "M",
+        "Qty": 30,
+        "NextExDate": "20241231",
+        "Position": [
+            {
+                "On": "True",
+                "Strategy": "LF",
+                "Qty": 30,
+                "Direction": "Long",
+                "DateIn": "",
+                "PriceIn": 9.30,
+                "DateOut": "",
+                "PriceOut": ""
+            }
+        ]
+    },
+    "OXLC": {
+        "name": "Oxford Lane Capital Corp. (OXLC)",
+        "Ticker": "OXLC",
+        "Div": 0.09,
+        "Price": 5.09,
+        "Periodicity": "M",
+        "Qty": 500,
+        "NextExDate": "20250117",
+        "Position": [
+            {
+                "On": "True",
+                "Strategy": "LF",
+                "Qty": 500,
+                "Direction": "Long",
+                "DateIn": "",
+                "PriceIn": 0.0,
+                "DateOut": "",
+                "PriceOut": ""
+            }
+        ]
+    },
+    "QYLD": {
+        "name": "Global X NASDAQ 100 Covered Call ETF (QYLD)",
+        "Ticker": "QYLD",
+        "Div": 0.3399,
+        "Price": 18.64,
+        "Periodicity": "M",
+        "Qty": 179,
+        "NextExDate": "20241230",
+        "Position": [
+            {
+                "On": "True",
+                "Strategy": "LF",
+                "Qty": 0,
+                "Direction": "Long",
+                "DateIn": "",
+                "PriceIn": 20.61,
+                "DateOut": "",
+                "PriceOut": ""
+            }
+        ]
+    },
+    "OXY": {
+        "name": "Occidental Petroleum Corporation (OXY)",
+        "Ticker": "OXY",
+        "Div": 0.22,
+        "Price": 47.47,
+        "Periodicity": "Q",
+        "Qty": 100,
+        "NextExDate": "20250310",
+        "Position": [
+            {
+                "On": "True",
+                "Strategy": "LF",
+                "Qty": 0,
+                "Direction": "Long",
+                "DateIn": "",
+                "PriceIn": 48.70,
+                "DateOut": "",
+                "PriceOut": ""
+            }
+        ]
+    },
+    "KO": {
+        "name": "The Coca-Cola Company (KO)",
+        "Ticker": "KO",
+        "Div": 0.48,
+        "Price": 62.12,
+        "Periodicity": "Q",
+        "Qty": 33,
+        "NextExDate": "",
+        "Position": [
+            {
+                "On": "True",
+                "Strategy": "HF",
+                "Qty": 33,
+                "Direction": "Long",
+                "DateIn": "",
+                "PriceIn": 62.72,
+                "DateOut": "",
+                "PriceOut": ""
+            }
+        ]
+    }
+}
