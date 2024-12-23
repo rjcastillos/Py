@@ -3,7 +3,7 @@ with open ('template.json','r') as t:
 print ("TEMPLATE ",template)
 
 
-TMP=template.replace('NEW','NVDA')
+TMP=template.replace('NEW','AGNC')
 
 with open('.new_tmp.json','w') as o:
     o.write(TMP)
@@ -28,3 +28,6 @@ print(fData)
 
 with open ("data.json","w") as o:
     json.dump(Asset,o)
+
+import os
+os.remove(".new_tmp.json")
