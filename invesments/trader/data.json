@@ -66,18 +66,18 @@
         "name": "AGNC Investment Corp. (AGNC)",
         "Ticker": "AGNC",
         "Div": 0.12,
-        "Price": 9.42,
+        "Price": 9.30,
         "Periodicity": "M",
-        "Qty": 30,
-        "NextExDate": "20241231",
+        "Qty": 100,
+        "NextExDate": "1735603200",
         "Position": [
             {
                 "On": "True",
                 "Strategy": "LF",
-                "Qty": 30,
+                "Qty": 100,
                 "Direction": "Long",
                 "DateIn": "",
-                "PriceIn": 9.30,
+                "PriceIn": 9.43,
                 "DateOut": "",
                 "PriceOut": ""
             }
