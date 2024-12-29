@@ -37,12 +37,19 @@ for Ticker in Tickers:
      Myinfo['averageVolume']=data.info['averageVolume']
      Rvol=float(Vol/Avgvol)
      Myinfo['Rvol']=Rvol
-     Myinfo['exDividendDate']=data.info['exDividendDate']
-     #print("exDividendDate = ",Myinfo['exDividendDate'])
-     datetime1 = datetime.datetime.fromtimestamp(data.info['exDividendDate'])
-     Myinfo['exDivFormatted']=datetime1.strftime("%m/%d/%Y")
-     #print("exDiv from utc = ",Myinfo['exDivFormatted'])
-     Myinfo['lastDividendValue']=data.info['lastDividendValue']
+     if data.info.get('exDividendDate') == None:
+          print ("MISSING exDividendDate")
+          datetime1="None"
+     else:
+          Myinfo['exDividendDate']=data.info['exDividendDate']
+          #print("exDividendDate = ",Myinfo['exDividendDate'])
+          datetime1 = datetime.datetime.fromtimestamp(data.info['exDividendDate'])
+          Myinfo['exDivFormatted']=datetime1.strftime("%m/%d/%Y")
+          #print("exDiv from utc = ",Myinfo['exDivFormatted'])
+     if data.info.get('lastDividendValue') == None:
+          print ("MISSING lastDividendValue")
+     else:
+          Myinfo['lastDividendValue']=data.info['lastDividendValue']
      #print("lastDividendValue = ",Myinfo['lastDividendValue'])
      #print("Vol    = ",f"{Vol:>15,.0f}")
      #print("Avgvol = ",f"{Avgvol:>15,.0f}")
