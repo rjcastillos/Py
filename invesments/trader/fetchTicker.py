@@ -3,16 +3,20 @@ import datetime
 import sys
 import json
 Print=False
+tickersList="Tickers_owned.json"
 if len(sys.argv) > 1:
      ARG=sys.argv[1]
+     Tickers=ARG.split(",")
 else:
-     print("Please indicate a new Ticker to add")
-     quit()
+     print("If no ARG working with ",tickersList)
+     with open ('data.json','r') as f:
+          Tickers = json.load(f)
+     
 #data = yf.download('OXLC')
 #print(data.info)
 #for k,v in data.info.items():
 #   k,v
-Tickers=ARG.split(",")
+
 
 for Ticker in Tickers:
      print ("Sys Arg",Ticker)
