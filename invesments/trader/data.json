@@ -23,19 +23,19 @@
     "PFE": {
         "name": "Pfizer Inc. (PFE)",
         "Ticker": "PFE",
-        "Div": 0.42,
-        "Price": 25.5,
+        "Div": 0.43,
+        "Price": 26.59,
         "Periodicity": "Q",
-        "Qty": 0,
+        "Qty": 10,
         "NextExDate": "20250315",
         "Position": [
             {
-                "On": "False",
+                "On": "True",
                 "Strategy": "",
-                "Qty": 0.0,
-                "Direction": "",
-                "DateIn": "",
-                "PriceIn": 0.0,
+                "Qty": 10.0,
+                "Direction": "Long",
+                "DateIn": "20250104",
+                "PriceIn": 26.68,
                 "DateOut": "",
                 "PriceOut": ""
             }
