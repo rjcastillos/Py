@@ -7,7 +7,7 @@
         "Periodicity": "Q",
         "Qty": 0,
         "NextExDate": "",
-        "Position": [
+        "Positions": [
             {
                 "On": "False",
                 "Strategy": "SniperNine",

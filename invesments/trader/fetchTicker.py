@@ -23,7 +23,9 @@ for Ticker in Tickers:
      data = yf.Ticker(Ticker)
      Myinfo={}
      Myinfo['symbol']=data.info['symbol']
+     Myinfo['shortName']=data.info['shortName']
      print("Symbol", Myinfo['symbol'])
+     print("shortName", Myinfo['shortName'])
      #print("currentPrice = ",data.info['currentPrice'])
      if data.info.get('currentPrice') == None:
           print ("taking net asset value nav instead of price")

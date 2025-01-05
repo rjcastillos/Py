@@ -7,7 +7,7 @@
         "Periodicity": "M",
         "Qty": 10,
         "NextExDate": "20250102",
-        "Position": [
+        "Positions": [
             {
                 "On": "False",
                 "Strategy": "",
@@ -28,7 +28,7 @@
         "Periodicity": "Q",
         "Qty": 10,
         "NextExDate": "20250315",
-        "Position": [
+        "Positions": [
             {
                 "On": "True",
                 "Strategy": "",
@@ -49,7 +49,7 @@
         "Periodicity": "Q",
         "Qty": 0,
         "NextExDate": "",
-        "Position": [
+        "Positions": [
             {
                 "On": "False",
                 "Strategy": "SniperNine",
@@ -66,11 +66,11 @@
         "name": "AGNC Investment Corp. (AGNC)",
         "Ticker": "AGNC",
         "Div": 0.12,
-        "Price": 9.30,
+        "Price": 9.3,
         "Periodicity": "M",
         "Qty": 100,
         "NextExDate": "1735603200",
-        "Position": [
+        "Positions": [
             {
                 "On": "True",
                 "Strategy": "LF",
@@ -91,7 +91,7 @@
         "Periodicity": "M",
         "Qty": 500,
         "NextExDate": "20250117",
-        "Position": [
+        "Positions": [
             {
                 "On": "True",
                 "Strategy": "LF",
@@ -112,7 +112,7 @@
         "Periodicity": "M",
         "Qty": 179,
         "NextExDate": "20241230",
-        "Position": [
+        "Positions": [
             {
                 "On": "True",
                 "Strategy": "LF",
@@ -133,14 +133,14 @@
         "Periodicity": "Q",
         "Qty": 100,
         "NextExDate": "20250310",
-        "Position": [
+        "Positions": [
             {
                 "On": "True",
                 "Strategy": "LF",
                 "Qty": 0,
                 "Direction": "Long",
                 "DateIn": "",
-                "PriceIn": 48.70,
+                "PriceIn": 48.7,
                 "DateOut": "",
                 "PriceOut": ""
             }
@@ -154,7 +154,7 @@
         "Periodicity": "Q",
         "Qty": 33,
         "NextExDate": "",
-        "Position": [
+        "Positions": [
             {
                 "On": "True",
                 "Strategy": "HF",
@@ -162,6 +162,27 @@
                 "Direction": "Long",
                 "DateIn": "",
                 "PriceIn": 62.72,
+                "DateOut": "",
+                "PriceOut": ""
+            }
+        ]
+    },
+    "GSG": {
+        "name": "iShares GSCI Commodity-Indexed",
+        "Ticker": "GSG",
+        "Div": 0.0,
+        "Price": 0.0,
+        "Periodicity": "Q",
+        "Qty": 0,
+        "NextExDate": "",
+        "Positions": [
+            {
+                "On": "False",
+                "Strategy": "SniperNine",
+                "Qty": 0,
+                "Direction": "Long",
+                "DateIn": "",
+                "PriceIn": 0.0,
                 "DateOut": "",
                 "PriceOut": ""
             }
