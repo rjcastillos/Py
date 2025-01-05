@@ -9,7 +9,7 @@ if len(sys.argv) > 1:
      Tickers=ARG.split(",")
 else:
      print("If no ARG working with ",tickersList)
-     with open ('data.json','r') as f:
+     with open (tickersList,'r') as f:
           Tickers = json.load(f)
      
 #data = yf.download('OXLC')
