@@ -1,191 +1,212 @@
 {
-    "O": {
-        "name": "Realty Income Corporation (O)",
-        "Ticker": "O",
-        "Div": 0.263,
-        "Price": 52.79,
-        "Periodicity": "M",
-        "Qty": 10,
-        "NextExDate": "20250102",
-        "Positions": [
-            {
-                "On": "False",
-                "Strategy": "",
-                "Qty": 0.0,
-                "Direction": "",
-                "DateIn": "",
-                "PriceIn": 0.0,
-                "DateOut": "",
-                "PriceOut": ""
-            }
-        ]
-    },
-    "PFE": {
-        "name": "Pfizer Inc. (PFE)",
-        "Ticker": "PFE",
-        "Div": 0.43,
-        "Price": 26.59,
-        "Periodicity": "Q",
-        "Qty": 10,
-        "NextExDate": "20250315",
-        "Positions": [
-            {
-                "On": "True",
-                "Strategy": "",
-                "Qty": 10.0,
-                "Direction": "Long",
-                "DateIn": "20250104",
-                "PriceIn": 26.68,
-                "DateOut": "",
-                "PriceOut": ""
-            }
-        ]
-    },
-    "NVDA": {
-        "name": "",
-        "Ticker": "NVDA",
-        "Div": 0.0,
-        "Price": 0.0,
-        "Periodicity": "Q",
+  "O": {
+    "name": "Realty Income Corporation (O)",
+    "Ticker": "O",
+    "Div": 0.263,
+    "Price": 52.79,
+    "Periodicity": "M",
+    "Qty": 10,
+    "NextExDate": "20250102",
+    "Positions": [
+      {
+        "On": "False",
+        "Strategy": "",
+        "Qty": 0.0,
+        "Direction": "",
+        "DateIn": "",
+        "PriceIn": 0.0,
+        "DateOut": "",
+        "PriceOut": ""
+      }
+    ]
+  },
+  "PFE": {
+    "name": "Pfizer Inc. (PFE)",
+    "Ticker": "PFE",
+    "Div": 0.43,
+    "Price": 26.59,
+    "Periodicity": "Q",
+    "Qty": 0,
+    "NextExDate": "20250315",
+    "Positions": [
+      {
+        "On": "True",
+        "Strategy": "",
+        "Qty": 10.0,
+        "Direction": "Long",
+        "DateIn": "20250104",
+        "PriceIn": 26.68,
+        "DateOut": "",
+        "PriceOut": ""
+      }
+    ]
+  },
+  "NVDA": {
+    "name": "",
+    "Ticker": "NVDA",
+    "Div": 0.0,
+    "Price": 0.0,
+    "Periodicity": "Q",
+    "Qty": 0,
+    "NextExDate": "",
+    "Positions": [
+      {
+        "On": "False",
+        "Strategy": "SniperNine",
         "Qty": 0,
-        "NextExDate": "",
-        "Positions": [
-            {
-                "On": "False",
-                "Strategy": "SniperNine",
-                "Qty": 0,
-                "Direction": "Long",
-                "DateIn": "",
-                "PriceIn": 0.0,
-                "DateOut": "",
-                "PriceOut": ""
-            }
-        ]
-    },
-    "AGNC": {
-        "name": "AGNC Investment Corp. (AGNC)",
-        "Ticker": "AGNC",
-        "Div": 0.12,
-        "Price": 9.3,
-        "Periodicity": "M",
+        "Direction": "Long",
+        "DateIn": "",
+        "PriceIn": 0.0,
+        "DateOut": "",
+        "PriceOut": ""
+      }
+    ]
+  },
+  "AGNC": {
+    "name": "AGNC Investment Corp. (AGNC)",
+    "Ticker": "AGNC",
+    "Div": 0.12,
+    "Price": 9.3,
+    "Periodicity": "M",
+    "Qty": 100,
+    "NextExDate": "1735603200",
+    "Positions": [
+      {
+        "On": "True",
+        "Strategy": "LF",
         "Qty": 100,
-        "NextExDate": "1735603200",
-        "Positions": [
-            {
-                "On": "True",
-                "Strategy": "LF",
-                "Qty": 100,
-                "Direction": "Long",
-                "DateIn": "",
-                "PriceIn": 9.43,
-                "DateOut": "",
-                "PriceOut": ""
-            }
-        ]
-    },
-    "OXLC": {
-        "name": "Oxford Lane Capital Corp. (OXLC)",
-        "Ticker": "OXLC",
-        "Div": 0.09,
-        "Price": 5.09,
-        "Periodicity": "M",
-        "Qty": 500,
-        "NextExDate": "20250117",
-        "Positions": [
-            {
-                "On": "True",
-                "Strategy": "LF",
-                "Qty": 500,
-                "Direction": "Long",
-                "DateIn": "",
-                "PriceIn": 5.17,
-                "DateOut": "",
-                "PriceOut": ""
-            }
-        ]
-    },
-    "QYLD": {
-        "name": "Global X NASDAQ 100 Covered Call ETF (QYLD)",
-        "Ticker": "QYLD",
-        "Div": 0.3399,
-        "Price": 18.64,
-        "Periodicity": "M",
-        "Qty": 179,
-        "NextExDate": "20241230",
-        "Positions": [
-            {
-                "On": "True",
-                "Strategy": "LF",
-                "Qty": 0,
-                "Direction": "Long",
-                "DateIn": "",
-                "PriceIn": 20.61,
-                "DateOut": "",
-                "PriceOut": ""
-            }
-        ]
-    },
-    "OXY": {
-        "name": "Occidental Petroleum Corporation (OXY)",
-        "Ticker": "OXY",
-        "Div": 0.22,
-        "Price": 47.47,
-        "Periodicity": "Q",
-        "Qty": 100,
-        "NextExDate": "20250310",
-        "Positions": [
-            {
-                "On": "True",
-                "Strategy": "LF",
-                "Qty": 0,
-                "Direction": "Long",
-                "DateIn": "",
-                "PriceIn": 48.7,
-                "DateOut": "",
-                "PriceOut": ""
-            }
-        ]
-    },
-    "KO": {
-        "name": "The Coca-Cola Company (KO)",
-        "Ticker": "KO",
-        "Div": 0.48,
-        "Price": 62.12,
-        "Periodicity": "Q",
+        "Direction": "Long",
+        "DateIn": "",
+        "PriceIn": 9.43,
+        "DateOut": "",
+        "PriceOut": ""
+      }
+    ]
+  },
+  "OXLC": {
+    "name": "Oxford Lane Capital Corp. (OXLC)",
+    "Ticker": "OXLC",
+    "Div": 0.09,
+    "Price": 5.12,
+    "Periodicity": "M",
+    "Qty": 600,
+    "NextExDate": "20250117",
+    "Positions": [
+      {
+        "On": "True",
+        "Strategy": "LF",
+        "Qty": 600,
+        "Direction": "Long",
+        "DateIn": "",
+        "PriceIn": 5.16,
+        "DateOut": "",
+        "PriceOut": ""
+      }
+    ]
+  },
+  "QYLD": {
+    "name": "Global X NASDAQ 100 Covered Call ETF (QYLD)",
+    "Ticker": "QYLD",
+    "Div": 0.3399,
+    "Price": 18.64,
+    "Periodicity": "M",
+    "Qty": 179,
+    "NextExDate": "20241230",
+    "Positions": [
+      {
+        "On": "True",
+        "Strategy": "LF",
+        "Qty": 0,
+        "Direction": "Long",
+        "DateIn": "",
+        "PriceIn": 20.61,
+        "DateOut": "",
+        "PriceOut": ""
+      }
+    ]
+  },
+  "OXY": {
+    "name": "Occidental Petroleum Corporation (OXY)",
+    "Ticker": "OXY",
+    "Div": 0.22,
+    "Price": 49.41,
+    "Periodicity": "Q",
+    "Qty": 30,
+    "NextExDate": "20250310",
+    "Positions": [
+      {
+        "On": "True",
+        "Strategy": "LF",
+        "Qty": 0,
+        "Direction": "Long",
+        "DateIn": "",
+        "PriceIn": 48.7,
+        "DateOut": "",
+        "PriceOut": ""
+      }
+    ]
+  },
+  "KO": {
+    "name": "The Coca-Cola Company (KO)",
+    "Ticker": "KO",
+    "Div": 0.48,
+    "Price": 62.12,
+    "Periodicity": "Q",
+    "Qty": 33,
+    "NextExDate": "",
+    "Positions": [
+      {
+        "On": "True",
+        "Strategy": "HF",
         "Qty": 33,
-        "NextExDate": "",
-        "Positions": [
-            {
-                "On": "True",
-                "Strategy": "HF",
-                "Qty": 33,
-                "Direction": "Long",
-                "DateIn": "",
-                "PriceIn": 62.72,
-                "DateOut": "",
-                "PriceOut": ""
-            }
-        ]
-    },
-    "GSG": {
-        "name": "iShares GSCI Commodity-Indexed",
-        "Ticker": "GSG",
-        "Div": 0.0,
-        "Price": 0.0,
-        "Periodicity": "Q",
+        "Direction": "Long",
+        "DateIn": "",
+        "PriceIn": 62.72,
+        "DateOut": "",
+        "PriceOut": ""
+      }
+    ]
+  },
+  "GSG": {
+    "name": "iShares GSCI Commodity-Indexed",
+    "Ticker": "GSG",
+    "Div": 0.0,
+    "Price": 0.0,
+    "Periodicity": "Q",
+    "Qty": 0,
+    "NextExDate": "",
+    "Positions": [
+      {
+        "On": "False",
+        "Strategy": "SniperNine",
         "Qty": 0,
-        "NextExDate": "",
-        "Positions": [
-            {
-                "On": "False",
-                "Strategy": "SniperNine",
-                "Qty": 0,
-                "Direction": "Long",
-                "DateIn": "",
-                "PriceIn": 0.0,
-                "DateOut": "",
-                "PriceOut": ""
-            }
-        ]
-    }
+        "Direction": "Long",
+        "DateIn": "",
+        "PriceIn": 0.0,
+        "DateOut": "",
+        "PriceOut": ""
+      }
+    ]
+  },
+  "HOOD": {
+    "name": "",
+    "Ticker": "HOOD",
+    "Div": 0.0,
+    "Price": 0.0,
+    "Periodicity": "Q",
+    "Qty": 0,
+    "NextExDate": "",
+    "Positions": [
+      {
+        "On": "False",
+        "Strategy": "SniperNine",
+        "Qty": 0,
+        "Direction": "Long",
+        "DateIn": "",
+        "PriceIn": 0.0,
+        "DateOut": "",
+        "PriceOut": ""
+      }
+    ]
+  }
 }
