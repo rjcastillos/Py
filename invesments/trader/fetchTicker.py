@@ -1,3 +1,4 @@
+#https://ranaroussi.github.io/yfinance/index.html
 import yfinance as yf
 import datetime
 import sys
@@ -24,6 +25,9 @@ for Ticker in Tickers:
      Myinfo={}
      Myinfo['symbol']=data.info['symbol']
      Myinfo['shortName']=data.info['shortName']
+     Myinfo['open']=data.info['open']
+     Myinfo['dayLow']=data.info['dayLow']
+     Myinfo['dayHigh']=data.info['dayHigh']
      print("Symbol", Myinfo['symbol'])
      print("shortName", Myinfo['shortName'])
      #print("currentPrice = ",data.info['currentPrice'])
