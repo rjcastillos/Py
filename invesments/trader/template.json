@@ -6,7 +6,9 @@
         "Price":0.00,
         "Periodicity": "Q",
         "Qty": 0,
+        "DivAmnt": 0.0,
         "NextExDate": "",
+        "Invested": 0.0,
         "Positions": [
             {
                 "On": "False",
@@ -15,6 +17,7 @@
                 "Direction": "Long",
                 "DateIn": "",
                 "PriceIn": 0.0,
+                "Commision": 0.00,
                 "DateOut": "",
                 "PriceOut": ""
             }

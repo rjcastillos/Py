@@ -28,6 +28,7 @@ for Ticker in Tickers:
      Myinfo['open']=data.info['open']
      Myinfo['dayLow']=data.info['dayLow']
      Myinfo['dayHigh']=data.info['dayHigh']
+     Myinfo['tr']=f"{Myinfo['dayHigh']-Myinfo['dayLow']:.2f}"
      print("Symbol", Myinfo['symbol'])
      print("shortName", Myinfo['shortName'])
      #print("currentPrice = ",data.info['currentPrice'])
@@ -63,6 +64,7 @@ for Ticker in Tickers:
      # print(type(Myinfo))
      fData=json.dumps(Myinfo,indent=4)
      print(fData)
+     #print ("Day TR =", f"{Myinfo['dayHigh']-Myinfo['dayLow']:.2f}")
 if Print:
     for k,v in data.info.items():
         print("[",k,"]","[",v,"]")
