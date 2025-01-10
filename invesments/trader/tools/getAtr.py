@@ -4,18 +4,19 @@
 #For now only supports one TIcker at the time.
 import datetime
 
-Print=False
+DEBUG=False
+Print=True
 OutputFile=False
 Period=14
 tickersList="../Tickers_owned.json"
 
 
 def gATR(Tickers):
-    print("received ARGS",Tickers)
+    if DEBUG: print("received ARGS",Tickers)
     Tickers=[Tickers]
     #print("Tickers len =",len(Tickers))
     for Ticker in Tickers:
-        print("->",Ticker)
+        if DEBUG: print("->",Ticker)
         import yfinance as yf
         data=yf.download(Ticker)
         df=data.tail(Period+1)
@@ -67,7 +68,7 @@ def gATR(Tickers):
         #print(df)
         fATR=df['tr'].sum()
         ATR=f"{fATR/(len(df)-1):.2f}"
-        print("<<<<< ATR >>>>> =",ATR)
+        if Print: print("<<<<< ATR >>>>> =",ATR)
                 
                 
         
