@@ -4,6 +4,7 @@ import datetime
 import sys
 import json
 Print=False
+f_date=datetime.datetime.now().strftime("%Y-%m-%d:%H")
 tickersList="Tickers_owned.json"
 if len(sys.argv) > 1:
      ARG=sys.argv[1]
@@ -25,10 +26,13 @@ for Ticker in Tickers:
      Myinfo={}
      Myinfo['symbol']=data.info['symbol']
      Myinfo['shortName']=data.info['shortName']
+     Myinfo['Date']=f_date
      Myinfo['open']=data.info['open']
      Myinfo['dayLow']=data.info['dayLow']
      Myinfo['dayHigh']=data.info['dayHigh']
-     Myinfo['tr']=f"{Myinfo['dayHigh']-Myinfo['dayLow']:.2f}"
+     HLD=Myinfo['dayHigh']-Myinfo['dayLow']
+     Myinfo['HLD']=HLD
+     
      print("Symbol", Myinfo['symbol'])
      print("shortName", Myinfo['shortName'])
      #print("currentPrice = ",data.info['currentPrice'])
@@ -42,10 +46,18 @@ for Ticker in Tickers:
           Myinfo['previousClose']=None
      else:
           Myinfo['previousClose']=data.info['previousClose']
+          pClose=Myinfo['previousClose']
      Vol=float(data.info['volume'])
      Myinfo['volume']=data.info['volume']
      Avgvol=float(data.info['averageVolume'])
      Myinfo['averageVolume']=data.info['averageVolume']
+     HPC=abs(Myinfo['dayHigh']-pClose)
+     LPC=abs(Myinfo['dayLow']-pClose)
+     #sorting values to get the grater of HLD,HPC and LPC
+     values=[HLD,HPC,LPC]
+     values.sort()
+     #assigning the greater to new column tr
+     Myinfo['tr']=f"{values[2]:.2f}"
      Rvol=float(Vol/Avgvol)
      Myinfo['Rvol']=Rvol
      if data.info.get('exDividendDate') == None:
