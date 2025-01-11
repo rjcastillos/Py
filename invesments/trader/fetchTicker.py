@@ -31,8 +31,7 @@ for Ticker in Tickers:
      Myinfo['dayLow']=data.info['dayLow']
      Myinfo['dayHigh']=data.info['dayHigh']
      HLD=Myinfo['dayHigh']-Myinfo['dayLow']
-     Myinfo['HLD']=HLD
-     
+     Myinfo['HLD']=f"{HLD:.2f}"
      print("Symbol", Myinfo['symbol'])
      print("shortName", Myinfo['shortName'])
      #print("currentPrice = ",data.info['currentPrice'])
