@@ -38,6 +38,10 @@ for Ticker in Tickers:
      else:
           Myinfo['currentPrice']=data.info['currentPrice']
      #print("currentPrice = ",Myinfo['currentPrice'])
+     if data.info.get('previousClose') == None:
+          Myinfo['previousClose']=None
+     else:
+          Myinfo['previousClose']=data.info['previousClose']
      Vol=float(data.info['volume'])
      Myinfo['volume']=data.info['volume']
      Avgvol=float(data.info['averageVolume'])
