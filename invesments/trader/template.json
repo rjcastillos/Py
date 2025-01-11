@@ -11,6 +11,13 @@
         "Invested": 0.0,
         "Positions": [
             {
+                "Direction":"",
+                "Size": 0.0,
+                "AvgPrice":0.0
+            }
+        ],
+        "Trades": [
+            {
                 "On": "False",
                 "Strategy": "SniperNine",
                 "Qty": 0,
