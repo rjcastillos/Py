@@ -5,7 +5,7 @@
 import datetime
 
 DEBUG=False
-Print=True
+Print=False
 OutputFile=False
 Period=14
 tickersList="../Tickers_owned.json"

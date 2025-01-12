@@ -4,7 +4,7 @@
 #For now only supports one TIcker at the time.
 
 
-DEBUG=True
+DEBUG=False
 Print=False
 OutputFile=False
 Period=14
@@ -13,6 +13,7 @@ tickersList="../Tickers_owned.json"
 
 def gRVOL(Tickers):
     if DEBUG: print("received ARGS",Tickers)
+    Tickers=[Tickers]
     for Ticker in Tickers:
         import yfinance as yf
         Myinfo={}
