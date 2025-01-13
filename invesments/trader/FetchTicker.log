@@ -16,3 +16,21 @@
     "exDivFormatted": "12/23/2024",
     "lastDividendValue": 0.235
 }
+{
+    "symbol": "MO",
+    "shortName": "Altria Group, Inc.",
+    "Date": "2025-01-13:22",
+    "open": 51.06,
+    "dayLow": 50.66,
+    "dayHigh": 51.13,
+    "HLD": "0.47",
+    "currentPrice": 50.855,
+    "previousClose": 50.87,
+    "volume": 4238423,
+    "averageVolume": 7642122,
+    "tr": "0.47",
+    "Rvol": 0.5546133652407015,
+    "exDividendDate": 1735171200,
+    "exDivFormatted": "12/26/2024",
+    "lastDividendValue": 1.02
+}

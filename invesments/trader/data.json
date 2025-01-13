@@ -54,18 +54,19 @@
         ]
     },
     "NVDA": {
-        "name": "",
+        "name": "NVIDIA Corporation",
         "Ticker": "NVDA",
         "Div": 0.0,
-        "Price": 10.83,
+        "Price": 131,
         "Periodicity": "Q",
-        "Qty": 44,
+        "Qty": 66,
         "NextExDate": "",
-        "Invested": 4647.39,
+        "Invested": 7582,
         "Positions": [
             {
-                "Direction":"",
-                "Size": 0.0
+                "Direction":"Long",
+                "Size": 66,
+                "AvgPrice": 136.56
             }
         ],
         "Trades": [
@@ -86,6 +87,28 @@
                 "Direction": "Long",
                 "DateIn": "20250111",
                 "PriceIn": 134.89,
+                "Commision":1.0,
+                "DateOut": "",
+                "PriceOut": ""
+            },
+                        {
+                "On": "True",
+                "Strategy": "SniperNine",
+                "Qty": 11.0,
+                "Direction": "Long",
+                "DateIn": "202501131430",
+                "PriceIn": 131.73,
+                "Commision":1.0,
+                "DateOut": "",
+                "PriceOut": ""
+            },
+            {
+                "On": "True",
+                "Strategy": "SniperNine",
+                "Qty": 11.0,
+                "Direction": "Long",
+                "DateIn": "202501131536",
+                "PriceIn": 131.73,
                 "Commision":1.0,
                 "DateOut": "",
                 "PriceOut": ""
@@ -125,15 +148,16 @@
         "name": "Oxford Lane Capital Corp. (OXLC)",
         "Ticker": "OXLC",
         "Div": 0.09,
-        "Price": 5.09,
+        "Price": 5.07,
         "Periodicity": "M",
         "Qty": 700,
         "DivAmnt": 63.00,
         "NextExDate": "20250117",
         "Positions": [
             {
-                "Direction":"",
-                "Size": 0.0
+                "Direction":"Long",
+                "Size": 700,
+                "AvgPrice":5.15
             }
         ],
         "Trades": [
@@ -183,12 +207,13 @@
         "Div": 0.22,
         "Price": 51.42,
         "Periodicity": "Q",
-        "Qty": 20,
+        "Qty": 10,
         "NextExDate": "20250310",
         "Positions": [
             {
-                "Direction":"",
-                "Size": 0.0
+                "Direction":"Long",
+                "Size": 10,
+                "AvgPrice": 51.52
             }
         ],
         "Trades": [
@@ -213,6 +238,17 @@
                 "Commision":1.0,
                 "DateOut": "",
                 "PriceOut": ""
+            },
+            {
+                "On": "False",
+                "Strategy": "LF",
+                "Qty": 10,
+                "Direction": "Long",
+                "DateIn": "20250110",
+                "PriceIn": 51.24,
+                "Commision":1.0,
+                "DateOut": "",
+                "PriceOut": 51.46
             }
         ]
     },
