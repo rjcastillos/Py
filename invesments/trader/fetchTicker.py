@@ -79,6 +79,8 @@ for Ticker in Tickers:
      # print(type(Myinfo))
      fData=json.dumps(Myinfo,indent=4)
      print(fData)
+     with open("FetchTicker.log","a") as f_log:
+               f_log.write(fData)
      #print ("Day TR =", f"{Myinfo['dayHigh']-Myinfo['dayLow']:.2f}")
 if Print:
     for k,v in data.info.items():

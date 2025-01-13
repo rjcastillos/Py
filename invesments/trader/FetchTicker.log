@@ -1,0 +1,18 @@
+{
+    "symbol": "WU",
+    "shortName": "Western Union Company (The)",
+    "Date": "2025-01-10:22",
+    "open": 10.35,
+    "dayLow": 10.2111,
+    "dayHigh": 10.38,
+    "HLD": "0.17",
+    "currentPrice": 10.27,
+    "previousClose": 10.44,
+    "volume": 4815952,
+    "averageVolume": 4816603,
+    "tr": "0.23",
+    "Rvol": 0.9998648425041466,
+    "exDividendDate": 1734912000,
+    "exDivFormatted": "12/23/2024",
+    "lastDividendValue": 0.235
+}
