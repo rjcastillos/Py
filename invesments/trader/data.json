@@ -15,7 +15,7 @@
         ],
         "Trades": [
             {
-                "On": "False",
+               "On":false,
                 "Strategy": "",
                 "Qty": 0.0,
                 "Direction": "",
@@ -42,7 +42,7 @@
         ],
         "Trades": [
             {
-                "On": "True",
+                "On": true,
                 "Strategy": "",
                 "Qty": 10.0,
                 "Direction": "Long",
@@ -71,7 +71,7 @@
         ],
         "Trades": [
             {
-                "On": "True",
+                "On": true,
                 "Strategy": "SniperNine",
                 "Qty": 33.0,
                 "Direction": "Long",
@@ -81,7 +81,7 @@
                 "PriceOut": ""
             },
             {
-                "On": "True",
+                "On": true,
                 "Strategy": "SniperNine",
                 "Qty": 11.0,
                 "Direction": "Long",
@@ -92,7 +92,7 @@
                 "PriceOut": ""
             },
                         {
-                "On": "True",
+                "On": true,
                 "Strategy": "SniperNine",
                 "Qty": 11.0,
                 "Direction": "Long",
@@ -103,7 +103,7 @@
                 "PriceOut": ""
             },
             {
-                "On": "True",
+                "On": true,
                 "Strategy": "SniperNine",
                 "Qty": 11.0,
                 "Direction": "Long",
@@ -133,7 +133,7 @@
         ],
         "Trades": [
             {
-                "On": "True",
+                "On": true,
                 "Strategy": "LF",
                 "Qty": 100,
                 "Direction": "Long",
@@ -162,7 +162,7 @@
         ],
         "Trades": [
             {
-                "On": "True",
+                "On": true,
                 "Strategy": "LF",
                 "Qty": 700,
                 "Direction": "Long",
@@ -190,7 +190,7 @@
         ],
         "Trades": [
             {
-                "On": "True",
+                "On": true,
                 "Strategy": "LF",
                 "Qty": 0,
                 "Direction": "Long",
@@ -218,7 +218,7 @@
         ],
         "Trades": [
             {
-                "On": "True",
+                "On": true,
                 "Strategy": "LF",
                 "Qty": 10,
                 "Direction": "Long",
@@ -229,7 +229,7 @@
                 "PriceOut": ""
             },
             {
-                "On": "True",
+                "On": true,
                 "Strategy": "LF",
                 "Qty": 10,
                 "Direction": "Long",
@@ -240,7 +240,7 @@
                 "PriceOut": ""
             },
             {
-                "On": "False",
+               "On":false,
                 "Strategy": "LF",
                 "Qty": 10,
                 "Direction": "Long",
@@ -270,7 +270,7 @@
         ],
         "Trades": [
             {
-                "On": "True",
+                "On": true,
                 "Strategy": "HF",
                 "Qty": 33,
                 "Direction": "Long",
@@ -297,7 +297,7 @@
         ],
         "Trades": [
             {
-                "On": "False",
+               "On":false,
                 "Strategy": "SniperNine",
                 "Qty": 0,
                 "Direction": "Long",
@@ -324,7 +324,7 @@
         ],
         "Trades": [
             {
-                "On": "True",
+                "On": true,
                 "Strategy": "SniperNine",
                 "Qty": 4,
                 "Direction": "Long",
@@ -351,7 +351,7 @@
         ],
         "Trades": [
             {
-                "On": "True",
+                "On": true,
                 "Strategy": "HF",
                 "Qty": 60,
                 "Direction": "Long",
@@ -361,7 +361,7 @@
                 "PriceOut": ""
             },
             {
-                "On": "True",
+                "On": true,
                 "Strategy": "split 1/20",
                 "Qty": 60,
                 "Direction": "Long",
@@ -388,7 +388,7 @@
         ],
         "Trades": [
             {
-                "On": "True",
+                "On": true,
                 "Strategy": "LT",
                 "Qty": 10,
                 "Direction": "Long",
@@ -399,7 +399,7 @@
                 "PriceOut": ""
             },
             {
-                "On": "True",
+                "On": true,
                 "Strategy": "LT",
                 "Qty": 10,
                 "Direction": "Long",
@@ -410,7 +410,7 @@
                 "PriceOut": ""
             },
             {
-                "On": "True",
+                "On": true,
                 "Strategy": "LT",
                 "Qty": 10,
                 "Direction": "Long",
@@ -440,7 +440,7 @@
         ],
         "Trades": [
             {
-                "On": "False",
+               "On":false,
                 "Strategy": "SniperNine",
                 "Qty": 0,
                 "Direction": "Long",
