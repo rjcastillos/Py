@@ -18,13 +18,13 @@
         ],
         "Trades": [
             {
-                "On": "False",
+                "On": false,
                 "Strategy": "SniperNine",
                 "Qty": 0,
                 "Direction": "Long",
                 "DateIn": "",
                 "PriceIn": 0.0,
-                "Commision": 0.00,
+                "Commission": 0.00,
                 "DateOut": "",
                 "PriceOut": ""
             }
