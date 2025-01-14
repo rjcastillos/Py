@@ -92,4 +92,5 @@ def main():
             Tickers = json.load(f)
     gATR(Tickers)
 if __name__ == "__main__":
+    Print=True
     main()
