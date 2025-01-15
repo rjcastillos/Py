@@ -126,7 +126,6 @@ def main():
          if Action == "S": Action = "Sale"
          if Action != "Buy" and Action != "Sale":
              Usage()
-         print ("THIS IS LEN ", len(sys.argv)," AND ARG 5",sys.argv[5])
          if len(sys.argv) > 5 : Commission = sys.argv[5]
          else:
              Commission=1.00
