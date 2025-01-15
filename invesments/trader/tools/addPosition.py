@@ -76,9 +76,8 @@ def addTrade(Action, Ticker,Price,Qty,Commission,Direction,Strategy,DateIn):
             print(Trades)
         #Checks if the list is a place holder like in the case 
         #of newobj.py and clears the list to start fresh with this Trade 
-        if float(Trade['PriceIn'] == 0 and
-                 float(Trade['Qty'])
-                 Trades.clear()    
+        if float(Trades[0]['PriceIn']) == 0 and float(Trades[0]['Qty']) == 0:
+            Trades.clear()    
         Trades.append(newTrade)
         if DEBUG:
             print("New Trade:")
@@ -113,7 +112,7 @@ def main():
     Direction="Long"
     DateIn=f_date
     PriceIn=0
-    Commission=1.00
+    
     import sys
     if len(sys.argv) < 4:
         Usage()
@@ -127,6 +126,11 @@ def main():
          if Action == "S": Action = "Sale"
          if Action != "Buy" and Action != "Sale":
              Usage()
+         print ("THIS IS LEN ", len(sys.argv)," AND ARG 5",sys.argv[5])
+         if len(sys.argv) > 5 : Commission = sys.argv[5]
+         else:
+             Commission=1.00
+         
          print("Adding Position ",Action,Ticker,Price,Qty,Commission,Direction,Strategy,DateIn)    
          addTrade(Action,Ticker,Price,Qty,Commission,Direction,Strategy,DateIn)
       
