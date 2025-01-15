@@ -50,6 +50,7 @@ for Ticker in Tickers:
      
      
 o=df_date+"_"+"Tickers_Rvol_data.csv"
+df=df.sort_values(by='RVOL', ascending=False)
 print(df)
 with open(o,'w') as output:
     df.to_csv(output)

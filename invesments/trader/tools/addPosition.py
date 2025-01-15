@@ -35,6 +35,8 @@ def cPosition (Trades):
 		    Total=(float(Trade['PriceIn'])*float(Trade['Qty']))+float(Trade['Commission'])+Total
 		    Size=float(Trade['Qty'])+Size
 		    TradesOn=TradesOn+1
+    
+                   
         
     AvgPrice=Total/Size
     if DEBUG: print("Total Invested w/comm =",Total)
@@ -72,6 +74,11 @@ def addTrade(Action, Ticker,Price,Qty,Commission,Direction,Strategy,DateIn):
         if DEBUG:
             print("Existent Trades:")
             print(Trades)
+        #Checks if the list is a place holder like in the case 
+        #of newobj.py and clears the list to start fresh with this Trade 
+        if float(Trade['PriceIn'] == 0 and
+                 float(Trade['Qty'])
+                 Trades.clear()    
         Trades.append(newTrade)
         if DEBUG:
             print("New Trade:")
