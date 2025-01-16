@@ -16,25 +16,28 @@ def Usage():
         print ("         (Direction = 'Long' Default)")
         print ("         (Strategy = 'SniperNine' Default)")
         print ("         (Timein = 'Now' Default)")
+        quit()
         
-
-
 
 #### Computes a Position updating size and Purchase price Average
 
 def cPosition (Trades):
     Total=0
     Size=0
-    TradesOn=0
     Position={}
+    if DEBUG: print("Entering a new [",Trade['Direction'],"]Position")
     for Trade in Trades:
-	    if Trade['On']:
-		    if DEBUG: print("Price=", float(Trade['PriceIn']))
-		    if DEBUG: print("Qty = ", float(Trade['Qty']))
-		    if DEBUG: print("Commission = ", float(Trade['Commission']))
-		    Total=(float(Trade['PriceIn'])*float(Trade['Qty']))+float(Trade['Commission'])+Total
-		    Size=float(Trade['Qty'])+Size
-		    TradesOn=TradesOn+1
+        if Trade['On']:
+            if DEBUG: print("Price=", float(Trade['PriceIn']))
+            if DEBUG: print("Qty = ", float(Trade['Qty']))
+            if DEBUG: print("Commission = ", float(Trade['Commission']))
+            if Trade['Direction']== "Long":
+                Total=(float(Trade['PriceIn'])*float(Trade['Qty']))+float(Trade['Commission'])+Total
+                Size=float(Trade['Qty'])+Size
+            if Trade['Direction'] == "Short":
+                Total=Total-(float(Trade['PriceOut'])*float(Trade['Qty']))
+                Size=Size-float(Trade['Qty'])
+                
     
                    
         
@@ -56,6 +59,7 @@ def addTrade(Action, Ticker,Price,Qty,Commission,Direction,Strategy,DateIn):
     DateOut=''
     Position={}
     DivAmnt=0
+    PriceOut=0
     newTrade={"On":_On,
               "Strategy":Strategy,
               "Qty":Qty,
@@ -64,7 +68,7 @@ def addTrade(Action, Ticker,Price,Qty,Commission,Direction,Strategy,DateIn):
               "PriceIn":Price,
               "Commission":Commission,
               "DateOut":DateOut,
-              "PriceOut":""}
+              "PriceOut":PriceOut}
     ##Load Data
     df=pd.read_json(Data, orient='index')
     #Validate if Ticker already exist in df
@@ -77,7 +81,10 @@ def addTrade(Action, Ticker,Price,Qty,Commission,Direction,Strategy,DateIn):
         #Checks if the list is a place holder like in the case 
         #of newobj.py and clears the list to start fresh with this Trade 
         if float(Trades[0]['PriceIn']) == 0 and float(Trades[0]['Qty']) == 0:
-            Trades.clear()    
+            Trades.clear()
+        if Direction == "Short":   ##Efectively Price depends on directio could be in or out
+            PriceOut = Price
+            Price = 0   
         Trades.append(newTrade)
         if DEBUG:
             print("New Trade:")
@@ -106,32 +113,34 @@ def addTrade(Action, Ticker,Price,Qty,Commission,Direction,Strategy,DateIn):
 #
 def main():
     ####Defaults for new Trades###
-    
     Strategy="SniperNine"
     Qty=11
-    Direction="Long"
     DateIn=f_date
     PriceIn=0
-    
     import sys
     if len(sys.argv) < 4:
         Usage()
-
     else:
-         Action=sys.argv[1].capitalize()
-         Ticker=sys.argv[2]
-         Price=sys.argv[3]
-         if len(sys.argv) > 4 : Qty = sys.argv[4]
-         if Action == "B":  Action = "Buy"
-         if Action == "S": Action = "Sale"
-         if Action != "Buy" and Action != "Sale":
-             Usage()
-         if len(sys.argv) > 5 : Commission = sys.argv[5]
-         else:
-             Commission=1.00
-         
-         print("Adding Position ",Action,Ticker,Price,Qty,Commission,Direction,Strategy,DateIn)    
-         addTrade(Action,Ticker,Price,Qty,Commission,Direction,Strategy,DateIn)
-      
+        Action=sys.argv[1].capitalize()
+        Ticker=sys.argv[2]
+        Price=sys.argv[3]
+        Qty = sys.argv[4]
+        if Action == "B":
+            Action = "Buy"
+        if Action == "S":
+            Action = "Sale"
+        if Action != "Buy" and Action != "Sale":
+            Usage()
+        if len(sys.argv) > 5 :
+            Commission = sys.argv[5]
+        else:
+            Commission=1.00
+        if Action == 'Buy':  Direction="Long"
+        if Action == 'Sale': Direction="Short"
+        print("Adding Position ",Action,Ticker,Price,Qty,Commission,Direction,Strategy,DateIn)
+        addTrade(Action,Ticker,Price,Qty,Commission,Direction,Strategy,DateIn)
+####
+# MAIN
+###      
 if __name__ == "__main__":
     main()

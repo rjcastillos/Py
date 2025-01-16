@@ -16,6 +16,7 @@
         "Direction": "",
         "DateIn": "",
         "PriceIn": 0.0,
+        "Commission": 1.0,
         "DateOut": "",
         "PriceOut": ""
       }
@@ -29,23 +30,35 @@
     "Div": 0.43,
     "Price": 26.59,
     "Periodicity": "Q",
-    "Qty": 0,
+    "Qty": 10,
     "NextExDate": "20250315",
-    "Positions": [{ "Direction": "", "Size": 0.0 }],
+    "Positions": [{ "Direction": "Long", "Size": 10.0, "AvgPrice": 26.11 }],
     "Trades": [
       {
-        "On": true,
+        "On": false,
         "Strategy": "",
         "Qty": 10.0,
         "Direction": "Long",
         "DateIn": "20250104",
         "PriceIn": 26.68,
+        "Commission": 1.0,
+        "DateOut": "",
+        "PriceOut": ""
+      },
+      {
+        "On": true,
+        "Strategy": "SniperNine",
+        "Qty": "10",
+        "Direction": "Long",
+        "DateIn": "2025-01-16:15:52",
+        "PriceIn": "26.01",
+        "Commission": 1.0,
         "DateOut": "",
         "PriceOut": ""
       }
     ],
-    "Invested": null,
-    "DivAmnt": null
+    "Invested": 261.1,
+    "DivAmnt": 4.3
   },
   "NVDA": {
     "name": "NVIDIA Corporation",
@@ -56,7 +69,7 @@
     "Qty": 77,
     "NextExDate": "",
     "Positions": [
-      { "Direction": "Long", "Size": 77.0, "AvgPrice": 136.19 }
+      { "Direction": "Long", "Size": 77.0, "AvgPrice": 136.4420779221 }
     ],
     "Trades": [
       {
@@ -71,15 +84,15 @@
         "PriceOut": ""
       },
       {
-        "On": true,
+        "On": false,
         "Strategy": "SniperNine",
         "Qty": 11.0,
         "Direction": "Long",
         "DateIn": "20250111",
         "PriceIn": 134.89,
         "Commission": 1.0,
-        "DateOut": "",
-        "PriceOut": ""
+        "DateOut": "20250116",
+        "PriceOut": "138.29"
       },
       {
         "On": true,
@@ -113,9 +126,20 @@
         "Commission": 1.0,
         "DateOut": "",
         "PriceOut": ""
+      },
+      {
+        "On": true,
+        "Strategy": "SniperNine",
+        "Qty": "11",
+        "Direction": "Long",
+        "DateIn": "2025-01-16:18:21",
+        "PriceIn": "134.82",
+        "Commission": 1.0,
+        "DateOut": "",
+        "PriceOut": ""
       }
     ],
-    "Invested": 10506.81,
+    "Invested": 10506.04,
     "DivAmnt": 0.0
   },
   "AGNC": {
@@ -371,9 +395,9 @@
     "Div": 0.32502,
     "Price": 86.65,
     "Periodicity": "M",
-    "Qty": 0,
+    "Qty": 10,
     "NextExDate": "",
-    "Positions": [{ "Direction": "Long", "Size": 0, "AvgPrice": 0 }],
+    "Positions": [{ "Direction": "Long", "Size": 10.0, "AvgPrice": 86.58 }],
     "Trades": [
       {
         "On": false,
@@ -409,7 +433,7 @@
         "PriceOut": "86.63"
       },
       {
-        "On": true,
+        "On": false,
         "Strategy": "SniperNine",
         "Qty": "10",
         "Direction": "Long",
@@ -418,10 +442,21 @@
         "Commission": 1.0,
         "DateOut": "2025-01-15 17:17:15",
         "PriceOut": "86.63"
+      },
+      {
+        "On": true,
+        "Strategy": "SniperNine",
+        "Qty": "10",
+        "Direction": "Long",
+        "DateIn": "2025-01-16:15:38",
+        "PriceIn": "86.48",
+        "Commission": 1.0,
+        "DateOut": "",
+        "PriceOut": ""
       }
     ],
-    "Invested": 0.0,
-    "DivAmnt": 0.0
+    "Invested": 865.8,
+    "DivAmnt": 3.2502
   },
   "VTRS": {
     "name": "Viatris Inc.",

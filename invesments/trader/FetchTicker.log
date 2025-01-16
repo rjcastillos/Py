@@ -132,4 +132,21 @@
     "exDividendDate": 1726099200,
     "exDivFormatted": "09/12/2024",
     "lastDividendValue": 0.01
+}{
+    "symbol": "NVDA",
+    "shortName": "NVIDIA Corporation",
+    "Date": "2025-01-16:19",
+    "open": 138.7,
+    "dayLow": 133.85,
+    "dayHigh": 138.7,
+    "HLD": "4.85",
+    "currentPrice": 134.22,
+    "previousClose": 136.24,
+    "volume": 126651124,
+    "averageVolume": 214197513,
+    "tr": "4.85",
+    "Rvol": 0.5912819538665699,
+    "exDividendDate": 1726099200,
+    "exDivFormatted": "09/12/2024",
+    "lastDividendValue": 0.01
 }
