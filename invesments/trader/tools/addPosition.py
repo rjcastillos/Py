@@ -8,6 +8,7 @@ DEBUG=True
 f_date=datetime.datetime.now().strftime("%Y-%m-%d:%H:%M")
 tickersList="Tickers_owned.json"
 Data="data.json"
+Direction="Long"
 
 def Usage():
         print ("Usage : {Action (B)uy/(S)ell Ticker Price} -- Mandatories")
@@ -25,7 +26,7 @@ def cPosition (Trades):
     Total=0
     Size=0
     Position={}
-    if DEBUG: print("Entering a new [",Trade['Direction'],"]Position")
+    
     for Trade in Trades:
         if Trade['On']:
             if DEBUG: print("Price=", float(Trade['PriceIn']))
@@ -93,6 +94,7 @@ def addTrade(Action, Ticker,Price,Qty,Commission,Direction,Strategy,DateIn):
         df.at[Ticker,'Trades']=Trades
         Position,Total=cPosition(Trades)
         if DEBUG: print("RECEIVED Position =",Position)
+        if DEBUG: print("Entering a new [",Direction,"]Position")
         #Updating the Position list inside a dict in the df
         df.at[Ticker,'Positions']=[Position]
         df.at[Ticker,'Qty']=Position['Size']

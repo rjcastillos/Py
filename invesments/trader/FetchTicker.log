@@ -149,4 +149,35 @@
     "exDividendDate": 1726099200,
     "exDivFormatted": "09/12/2024",
     "lastDividendValue": 0.01
+}{
+    "symbol": "KO",
+    "shortName": "Coca-Cola Company (The)",
+    "Date": "2025-01-17:20",
+    "open": 62.31,
+    "dayLow": 62.17,
+    "dayHigh": 62.69,
+    "HLD": "0.52",
+    "currentPrice": 62.615,
+    "previousClose": 62.25,
+    "volume": 9696199,
+    "averageVolume": 16991060,
+    "tr": "0.52",
+    "Rvol": 0.5706647495800733,
+    "exDividendDate": 1732838400,
+    "exDivFormatted": "11/29/2024",
+    "lastDividendValue": 0.485
+}{
+    "symbol": "HOOD",
+    "shortName": "Robinhood Markets, Inc.",
+    "Date": "2025-01-17:22",
+    "open": 47.75,
+    "dayLow": 46.97,
+    "dayHigh": 49.27,
+    "HLD": "2.30",
+    "currentPrice": 48.15,
+    "previousClose": 46.08,
+    "volume": 33662410,
+    "averageVolume": 22478470,
+    "tr": "3.19",
+    "Rvol": 1.4975400905844571
 }

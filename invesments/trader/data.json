@@ -63,13 +63,13 @@
   "NVDA": {
     "name": "NVIDIA Corporation",
     "Ticker": "NVDA",
-    "Div": 0.0,
-    "Price": 135.26,
+    "Div": 0.1,
+    "Price": 137.90,
     "Periodicity": "Q",
-    "Qty": 77,
+    "Qty": 66,
     "NextExDate": "",
     "Positions": [
-      { "Direction": "Long", "Size": 77.0, "AvgPrice": 136.4420779221 }
+      { "Direction": "Long", "Size": 66.0, "AvgPrice": 134.94 }
     ],
     "Trades": [
       {
@@ -137,6 +137,17 @@
         "Commission": 1.0,
         "DateOut": "",
         "PriceOut": ""
+      },
+      {
+        "On": true,
+        "Strategy": "SniperNine",
+        "Qty": "11",
+        "Direction": "Short",
+        "DateIn": "2025-01-17:18:13",
+        "PriceIn": "138.02",
+        "Commission": "1.04",
+        "DateOut": "",
+        "PriceOut": 0
       }
     ],
     "Invested": 10506.04,
