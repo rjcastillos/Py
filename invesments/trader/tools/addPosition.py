@@ -9,6 +9,8 @@ f_date=datetime.datetime.now().strftime("%Y-%m-%d:%H:%M")
 tickersList="Tickers_owned.json"
 Data="data.json"
 Direction="Long"
+def divide(x, y):
+    return x/y if y else 0
 
 def Usage():
         print ("Usage : {Action (B)uy/(S)ell Ticker Price} -- Mandatories")
@@ -18,7 +20,20 @@ def Usage():
         print ("         (Strategy = 'SniperNine' Default)")
         print ("         (Timein = 'Now' Default)")
         quit()
-        
+
+def TradeOff (Trades,ThisDirection,ThisQty,ThisPrice):
+        _TradeOff=False
+        for Trade in Trades:
+            if Trade['On']:
+                if ThisDirection != Trade['Direction'] and ThisQty == Trade['Qty']:
+                    Trade['On']=False
+                    _TradeOff=True
+                    break
+        if _TradeOff: print("Trade was turned off")
+        else:
+            print("Not Trade was turned off check Data")
+        return(Trades)
+                    
 
 #### Computes a Position updating size and Purchase price Average
 
@@ -32,17 +47,21 @@ def cPosition (Trades):
             if DEBUG: print("Price=", float(Trade['PriceIn']))
             if DEBUG: print("Qty = ", float(Trade['Qty']))
             if DEBUG: print("Commission = ", float(Trade['Commission']))
+            if DEBUG: print("Direction <=>",Trade['Direction'])
             if Trade['Direction']== "Long":
                 Total=(float(Trade['PriceIn'])*float(Trade['Qty']))+float(Trade['Commission'])+Total
                 Size=float(Trade['Qty'])+Size
             if Trade['Direction'] == "Short":
-                Total=Total-(float(Trade['PriceOut'])*float(Trade['Qty']))
+                Total=Total-((float(Trade['PriceOut'])*float(Trade['Qty']))-Trade['Commission'])
                 Size=Size-float(Trade['Qty'])
                 
     
-                   
+
+                       
         
-    AvgPrice=Total/Size
+    #AvgPrice=Total/Size ### Replaced for function to fix divide by zero when sales the max
+    #number of Stocks owned 
+    AvgPrice=divide(Total,Size)
     if DEBUG: print("Total Invested w/comm =",Total)
     if DEBUG: print("New Position size =",Size)
     if DEBUG: print("AVG Price =",AvgPrice)

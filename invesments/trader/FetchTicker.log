@@ -180,4 +180,21 @@
     "averageVolume": 22478470,
     "tr": "3.19",
     "Rvol": 1.4975400905844571
+}{
+    "symbol": "AAPL",
+    "shortName": "Apple Inc.",
+    "Date": "2025-01-21:19",
+    "open": 224.0,
+    "dayLow": 219.38,
+    "dayHigh": 224.42,
+    "HLD": "5.04",
+    "currentPrice": 221.164,
+    "previousClose": 229.98,
+    "volume": 57560195,
+    "averageVolume": 46061296,
+    "tr": "10.60",
+    "Rvol": 1.2496434099466067,
+    "exDividendDate": 1731024000,
+    "exDivFormatted": "11/08/2024",
+    "lastDividendValue": 0.25
 }
