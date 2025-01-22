@@ -41,6 +41,13 @@ def cPosition (Trades):
     Total=0
     Size=0
     Position={}
+    S_Qty=0
+    L_Total=0
+    L_Qty=0
+    L_Commission=0
+    S_Total=0
+    S_Qty=0
+    S_Commission=0
     
     for Trade in Trades:
         if Trade['On']:
@@ -49,18 +56,22 @@ def cPosition (Trades):
             if DEBUG: print("Commission = ", float(Trade['Commission']))
             if DEBUG: print("Direction <=>",Trade['Direction'])
             if Trade['Direction']== "Long":
-                Total=(float(Trade['PriceIn'])*float(Trade['Qty']))+float(Trade['Commission'])+Total
-                Size=float(Trade['Qty'])+Size
+                L_Total=L_Total+float(Trade['PriceIn'])*float(Trade['Qty'])
+                L_Commission = L_Commission+float(Trade['Commission'])
+                L_Qty=L_Qty+float(Trade['Qty'])
             if Trade['Direction'] == "Short":
-                Total=Total-((float(Trade['PriceOut'])*float(Trade['Qty']))-Trade['Commission'])
-                Size=Size-float(Trade['Qty'])
-                
-    
-
-                       
-        
+                S_Total=S_Total+float(Trade['PriceIn'])*float(Trade['Qty'])
+                S_Commission = S_Commission+float(Trade['Commission'])
+                S_Qty=S_Qty+float(Trade['Qty'])
+                        
     #AvgPrice=Total/Size ### Replaced for function to fix divide by zero when sales the max
-    #number of Stocks owned 
+    #number of Stocks owned
+    # The sum of all the longs (Buys)  with its quatities + Commissions (Minus) all the shorts (Sales)
+    # Is the position in Size and to calculate the entry average price 
+    L_Total=L_Total+L_Commission
+    S_Total=S_Total+S_Commission
+    Total=abs(L_Total-S_Total)
+    Size=abs(L_Qty-S_Qty)
     AvgPrice=divide(Total,Size)
     if DEBUG: print("Total Invested w/comm =",Total)
     if DEBUG: print("New Position size =",Size)
