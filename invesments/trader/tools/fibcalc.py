@@ -9,7 +9,7 @@
 #       Fibonacci Calculator
 #       Calculates Retracements and Extensions in UP and DOWN trends
 #   https://www.investing.com/tools/fibonacci-calculator
-#lastest ver. 0.02
+#lastest ver. 1.00
 #2025 01 30
 #changed to ba a  simpler function accepting 2 params
 # 2018 11 29 ver 0.02
@@ -33,10 +33,10 @@
 ####################
 #Import
 import sys
+import json
 from pprint import pprint
 from TradeGoals_9 import *
 DEBUG=False
-ARGS={'-A':0.1,'-B':100.00,'-C':0.0,'-F':0.382}
 #
 #Functions
 #
@@ -56,7 +56,16 @@ def DecPlaces(MyP):
                 if len(Dec[1]) < 3 : MyNumDec=2  ## Passed is 99.9 or 99.99 Defaults to .2f
         print("Price ${} will contain {} decimals places".format(MyP,MyNumDec))
         return MyNumDec
-FibUP={'TwoThreeSix':0.236,'ThreeEightyTwo':0.382,'Fifty':0.5,'SixOneEight':0.618,'GoldenPocket':0.65,'Seven86':0.786}
+FibUP = {
+        'aHundred':{"Multiplier":0,"value":0},
+        'TwoThreeSix':{"Multiplier":0.236,"value":0},
+        'ThreeEightyTwo':{"Multiplier":0.382,"value":0},
+        'Fifty':{"Multiplier":0.5,"value":0},
+        'SixOneEight':{"Multiplier":0.618,"value":0},
+        'GoldenPocket':{"Multiplier":0.65,"value":0},
+        'Seven86':{"Multiplier":0.786,"value":0},
+        'Zero':{"Multiplier":1,"value":0}
+        }
 FibDown={}
 #    print("Price received =",price)
 A_=5755
@@ -70,12 +79,19 @@ B_=8506.7
 def FibCalc(_Low,_High):
     A_=_Low
     B_=_High
-    print("\nFib Retracements UPTrend from  ${0:,.{1}f} to  ${2:,.{1}f} ".format(A_,2,B_))
-    print("========================================================","\n")
-    print("{0:20s}  Fib Up =    ${1:>20,.{2}f}".format("aHundred",B_,2))
-    for k,v in FibUP.items():
-        print("{0:20s}  Fib Up =    ${1:>20,.{2}f}".format(k,B_-(B_-A_)*v,2)) ### high-(high-Low)*Fib
-    print("{0:20s}  Fib Up =    ${1:>20,.{2}f}".format("Zero",A_,2))
+    Myinfo={}
+    print(f'Fib Retracements upTrend from  ${_Low} to ${_High}')
+    print('='*50)
+    for k in FibUP.keys():
+        # ### high-(high-Low)*Fib
+        FibUP[k]["value"]=_High-(_High-_Low)*FibUP[k]["Multiplier"]
+        Myinfo[k]=FibUP[k]['value']
+        if __name__ == "__main__":
+            print(f'{k:>25}{FibUP[k]["value"]:>25.2f}')
+    if __name__ == "__main__":
+        print('-'*50)
+    print (json.dumps(Myinfo,indent=4))
+    return json.dumps(Myinfo)
 
 def main():
     if len(sys.argv) < 3:
