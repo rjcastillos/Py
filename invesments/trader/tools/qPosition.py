@@ -89,11 +89,12 @@ def cPosition (Ticker,Trades):
     Total=abs(L_Total-S_Total)
     Size=abs(L_Qty-S_Qty)
     AvgPrice=divide(Total,Size)
-    print("Trades On =",TradesOn)
-    print("Direction =",Direction)
-    print("Total Invested w/comm =",Total)
-    print("Current Position size =",Size)
-    print("AVG Price =",AvgPrice)
+    if __name__ == "__main__":
+        print("Trades On =",TradesOn)
+        print("Direction =",Direction)
+        print("Total Invested w/comm =",Total)
+        print("Current Position size =",Size)
+        print("AVG Price =",AvgPrice)
     Myinfo={}
     Myinfo['Ticker']=Ticker
     Myinfo['TradesOn']=TradesOn
@@ -133,15 +134,14 @@ def queryPosition(Ticker):
         
 
         DivAmt=float(df.loc[Ticker,'Div'])*float(df.loc[Ticker,'Qty'])
-        print(Ticker,df.loc[Ticker,'Div'],df.loc[Ticker,'Qty'],"DivAmnt =",DivAmt)
         Myinfo=cPosition(Ticker,Trades)
         Myinfo['Div']=df.loc[Ticker,'Div']
         Myinfo['DivPayOut']=DivAmt
-        jSonPrint(Myinfo)
-
-        
-       
-     
+        if __name__ == "__main__":
+            print(Ticker,df.loc[Ticker,'Div'],df.loc[Ticker,'Qty'],"DivAmnt =",DivAmt)
+            jSonPrint(Myinfo)
+        else:
+            return json.dumps(Myinfo)
     else:
         print("Ticker :", Ticker , "Doesn't exist run new object first")
         print("        ","python3 newobj.py <Ticker>")

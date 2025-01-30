@@ -4,7 +4,7 @@ import datetime
 import sys
 import json
 Print=False
-DEBUG=True
+DEBUG=False
 f_date=datetime.datetime.now().strftime("%Y-%m-%d:%H:%M")
 tickersList="Tickers_owned.json"
 Data="data.json"
@@ -123,8 +123,8 @@ def addTrade(Action, Ticker,Price,Qty,Commission,Direction,Strategy,DateIn):
         #Updating the list of Trades in to the df
         df.at[Ticker,'Trades']=Trades
         Position,Total=cPosition(Trades)
-        if DEBUG: print("RECEIVED Position =",Position)
-        if DEBUG: print("Entering a new [",Direction,"]Position")
+        print("RECEIVED Position =",Position)
+        print("Entering a new [",Direction,"]Position")
         #Updating the Position list inside a dict in the df
         df.at[Ticker,'Positions']=[Position]
         df.at[Ticker,'Qty']=Position['Size']

@@ -1,6 +1,7 @@
 import yfinance as yf
 import datetime
 import sys
+from tools.TradeGoals_9 import Distance , mMove
 Print=False
 if len(sys.argv) > 1:
      ARG=sys.argv[1]
@@ -11,6 +12,9 @@ else:
 #print(data.info)
 #for k,v in data.info.items():
 #   k,v
+print(f'Move of 5% from 10 {mMove(5,10)}')
+quit()
+
 Tickers=ARG.split(",")
 for Ticker in Tickers:
     

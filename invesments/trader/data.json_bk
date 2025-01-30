@@ -30,11 +30,9 @@
     "Div": 0.43,
     "Price": 26.59,
     "Periodicity": "Q",
-    "Qty": 33,
+    "Qty": 50,
     "NextExDate": "20250315",
-    "Positions": [
-      { "Direction": "Long", "Size": 33.0, "AvgPrice": 26.4260606061 }
-    ],
+    "Positions": [{ "Direction": "Long", "Size": 50.0, "AvgPrice": 26.3764 }],
     "Trades": [
       {
         "On": false,
@@ -68,10 +66,32 @@
         "Commission": 1.0,
         "DateOut": "",
         "PriceOut": 0
+      },
+      {
+        "On": true,
+        "Strategy": "SniperNine",
+        "Qty": "12",
+        "Direction": "Long",
+        "DateIn": "2025-01-22:19:54",
+        "PriceIn": "26.23",
+        "Commission": 1.0,
+        "DateOut": "",
+        "PriceOut": 0
+      },
+      {
+        "On": true,
+        "Strategy": "SniperNine",
+        "Qty": "5",
+        "Direction": "Long",
+        "DateIn": "2025-01-22:21:56",
+        "PriceIn": "26",
+        "Commission": 1.0,
+        "DateOut": "",
+        "PriceOut": 0
       }
     ],
-    "Invested": 872.06,
-    "DivAmnt": 14.19
+    "Invested": 1318.82,
+    "DivAmnt": 21.5
   },
   "NVDA": {
     "name": "NVIDIA Corporation",
@@ -79,10 +99,10 @@
     "Div": 0.1,
     "Price": 137.9,
     "Periodicity": "Q",
-    "Qty": 39,
+    "Qty": 90,
     "NextExDate": "",
     "Positions": [
-      { "Direction": "Long", "Size": 39.0, "AvgPrice": 232.2853846154 }
+      { "Direction": "Long", "Size": 90.0, "AvgPrice": 129.6282222222 }
     ],
     "Trades": [
       {
@@ -108,7 +128,7 @@
         "PriceOut": "138.29"
       },
       {
-        "On": false,
+        "On": true,
         "Strategy": "SniperNine",
         "Qty": 11.0,
         "Direction": "Long",
@@ -141,7 +161,7 @@
         "PriceOut": ""
       },
       {
-        "On": true,
+        "On": false,
         "Strategy": "SniperNine",
         "Qty": "11",
         "Direction": "Long",
@@ -183,10 +203,87 @@
         "Commission": "1.02",
         "DateOut": "",
         "PriceOut": 0
+      },
+      {
+        "On": true,
+        "Strategy": "SniperNine",
+        "Qty": "10",
+        "Direction": "Short",
+        "DateIn": "2025-01-22:17:17",
+        "PriceIn": "146",
+        "Commission": "1.04",
+        "DateOut": "",
+        "PriceOut": 0
+      },
+      {
+        "On": true,
+        "Strategy": "SniperNine",
+        "Qty": "5",
+        "Direction": "Long",
+        "DateIn": "2025-01-27:10:34",
+        "PriceIn": "135.38",
+        "Commission": 1.0,
+        "DateOut": "",
+        "PriceOut": 0
+      },
+      {
+        "On": true,
+        "Strategy": "SniperNine",
+        "Qty": "6",
+        "Direction": "Long",
+        "DateIn": "2025-01-27:11:24",
+        "PriceIn": "128.51",
+        "Commission": 1.0,
+        "DateOut": "",
+        "PriceOut": 0
+      },
+      {
+        "On": true,
+        "Strategy": "SniperNine",
+        "Qty": "9",
+        "Direction": "Long",
+        "DateIn": "2025-01-27:11:24",
+        "PriceIn": "127.65",
+        "Commission": 1.0,
+        "DateOut": "",
+        "PriceOut": 0
+      },
+      {
+        "On": true,
+        "Strategy": "SniperNine",
+        "Qty": "10",
+        "Direction": "Long",
+        "DateIn": "2025-01-27:18:45",
+        "PriceIn": "126.79",
+        "Commission": 1.0,
+        "DateOut": "",
+        "PriceOut": 0
+      },
+      {
+        "On": true,
+        "Strategy": "SniperNine",
+        "Qty": "10",
+        "Direction": "Long",
+        "DateIn": "2025-01-27:18:48",
+        "PriceIn": "122.70",
+        "Commission": 1.0,
+        "DateOut": "",
+        "PriceOut": 0
+      },
+      {
+        "On": true,
+        "Strategy": "SniperNine",
+        "Qty": "10",
+        "Direction": "Long",
+        "DateIn": "2025-01-27:18:49",
+        "PriceIn": "117.85",
+        "Commission": 1.0,
+        "DateOut": "",
+        "PriceOut": 0
       }
     ],
-    "Invested": 9059.13,
-    "DivAmnt": 3.9
+    "Invested": 11666.54,
+    "DivAmnt": 9.0
   },
   "AGNC": {
     "name": "AGNC Investment Corp. (AGNC)",
@@ -195,7 +292,7 @@
     "Price": 9.35,
     "Periodicity": "M",
     "Qty": 50,
-    "NextExDate": "1735603200",
+    "NextExDate": "Jan 31 2025",
     "Positions": [{ "Direction": "Long", "Size": 50 }],
     "Trades": [
       {
@@ -205,6 +302,7 @@
         "Direction": "Long",
         "DateIn": "",
         "PriceIn": 9.28,
+        "Commission": "1.0",
         "DateOut": "",
         "PriceOut": ""
       }
@@ -580,11 +678,9 @@
     "Div": 1.02,
     "Price": 0.0,
     "Periodicity": "Q",
-    "Qty": 30,
+    "Qty": 10,
     "NextExDate": "2025-03-25",
-    "Positions": [
-      { "Direction": "Long", "Size": 30.0, "AvgPrice": 51.3866666667 }
-    ],
+    "Positions": [{ "Direction": "Long", "Size": 10.0, "AvgPrice": 47.6 }],
     "Trades": [
       {
         "On": true,
@@ -618,30 +714,14 @@
         "Commission": 1.0,
         "DateOut": "",
         "PriceOut": 0
-      }
-    ],
-    "Invested": 1541.6,
-    "DivAmnt": 30.6
-  },
-  "AAPL": {
-    "name": "",
-    "Ticker": "AAPL",
-    "Div": 0.0,
-    "Price": 0.0,
-    "Periodicity": "Q",
-    "Qty": 22,
-    "NextExDate": "",
-    "Positions": [
-      { "Direction": "Long", "Size": 22.0, "AvgPrice": 221.0759090909 }
-    ],
-    "Trades": [
+      },
       {
         "On": true,
         "Strategy": "SniperNine",
-        "Qty": "11",
+        "Qty": "10",
         "Direction": "Long",
-        "DateIn": "2025-01-21:19:47",
-        "PriceIn": "221.21",
+        "DateIn": "2025-01-23:17:05",
+        "PriceIn": "50.97",
         "Commission": 1.0,
         "DateOut": "",
         "PriceOut": 0
@@ -649,16 +729,74 @@
       {
         "On": true,
         "Strategy": "SniperNine",
-        "Qty": "11",
-        "Direction": "Long",
-        "DateIn": "2025-01-21:20:40",
-        "PriceIn": "220.76",
+        "Qty": "30",
+        "Direction": "Short",
+        "DateIn": "2025-01-27:11:29",
+        "PriceIn": "52.51",
         "Commission": 1.0,
         "DateOut": "",
         "PriceOut": 0
       }
     ],
-    "Invested": 4863.67,
+    "Invested": 476.0,
+    "DivAmnt": 10.2
+  },
+  "AAPL": {
+    "name": "",
+    "Ticker": "AAPL",
+    "Div": 0.0,
+    "Price": 0.0,
+    "Periodicity": "Q",
+    "Qty": 0,
+    "NextExDate": "",
+    "Positions": [{ "Direction": "Long", "Size": 0.0, "AvgPrice": 0 }],
+    "Trades": [
+      {
+        "On": false,
+        "Strategy": "SniperNine",
+        "Qty": "11",
+        "Direction": "Long",
+        "DateIn": "2025-01-21:19:47",
+        "PriceIn": "221.21",
+        "Commission": 1.0,
+        "DateOut": "2025-01-22:18:47",
+        "PriceOut": 0
+      },
+      {
+        "On": false,
+        "Strategy": "SniperNine",
+        "Qty": "11",
+        "Direction": "Long",
+        "DateIn": "2025-01-21:20:40",
+        "PriceIn": "220.76",
+        "Commission": 1.0,
+        "DateOut": "2025-01-23:18:43",
+        "PriceOut": 0
+      },
+      {
+        "On": false,
+        "Strategy": "SniperNine",
+        "Qty": "6",
+        "Direction": "Short",
+        "DateIn": "2025-01-23:17:07",
+        "PriceIn": "224.81",
+        "Commission": 1.0,
+        "DateOut": "2025-01-23:18:43",
+        "PriceOut": 0
+      },
+      {
+        "On": false,
+        "Strategy": "SniperNine",
+        "Qty": "16",
+        "Direction": "Short",
+        "DateIn": "2025-01-23:18:41",
+        "PriceIn": "223.40",
+        "Commission": "1.10",
+        "DateOut": "2025-01-23:18:43",
+        "PriceOut": 0
+      }
+    ],
+    "Invested": 61.69,
     "DivAmnt": 0.0
   }
 }
