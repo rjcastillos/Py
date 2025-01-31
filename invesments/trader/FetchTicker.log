@@ -367,4 +367,21 @@
     "exDividendDate": 1738540800,
     "exDivFormatted": "02/03/2025",
     "lastDividendValue": 0.264
+}{
+    "symbol": "PFE",
+    "shortName": "Pfizer, Inc.",
+    "Date": "2025-01-31:19",
+    "open": 26.96,
+    "dayLow": 26.605,
+    "dayHigh": 27.01,
+    "HLD": "0.41",
+    "currentPrice": 26.705,
+    "previousClose": 26.91,
+    "volume": 17517168,
+    "averageVolume": 43732316,
+    "tr": "0.41",
+    "Rvol": 0.40055431777269696,
+    "exDividendDate": 1737676800,
+    "exDivFormatted": "01/24/2025",
+    "lastDividendValue": 0.43
 }

@@ -80,8 +80,9 @@ def FibCalc(_Low,_High):
     A_=_Low
     B_=_High
     Myinfo={}
-    print(f'Fib Retracements upTrend from  ${_Low} to ${_High}')
-    print('='*50)
+    if __name__ == "__main__":
+        print(f'Fib Retracements upTrend from  ${_Low} to ${_High}')
+        print('='*50)
     for k in FibUP.keys():
         # ### high-(high-Low)*Fib
         FibUP[k]["value"]=_High-(_High-_Low)*FibUP[k]["Multiplier"]
@@ -90,7 +91,7 @@ def FibCalc(_Low,_High):
             print(f'{k:>25}{FibUP[k]["value"]:>25.2f}')
     if __name__ == "__main__":
         print('-'*50)
-    print (json.dumps(Myinfo,indent=4))
+        print (json.dumps(Myinfo,indent=4))
     return json.dumps(Myinfo)
 
 def main():

@@ -3,15 +3,28 @@
             "Funding":1000.00,
             "PTperc":1.02,
             "LossToleranceperc":1.00
-            
             },
-    "EntryTrade" :
-             {
-             "Ticker":"",
-             "Date":"",
-             "ATR":0.00,
-             "Price":0.00,
-             "Qty":0,
-             "Fee":0.0
-    }
+    "TradeEnter" :
+            {
+            "Ticker":"",
+            "Date":"",
+            "ATR":0.00,
+            "RVOL":0.00,
+            "Qty":0,
+            "Price":0.00,
+            "Fee":0.0,
+            "T1":0.00,
+            "T2":0.00,
+            "T3":0.00,
+            "SL":0.00
+            },
+    "Expentancy":
+            {
+            "ExpectedValue":0.00,
+            "Pright":0.0,
+            "Pwrong":0.0,
+            "Reward":0.0,
+            "Loss":0.0
+            }
+    
 }
