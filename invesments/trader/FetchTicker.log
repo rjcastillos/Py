@@ -384,4 +384,21 @@
     "exDividendDate": 1737676800,
     "exDivFormatted": "01/24/2025",
     "lastDividendValue": 0.43
+}{
+    "symbol": "WBA",
+    "shortName": "Walgreens Boots Alliance, Inc.",
+    "Date": "2025-01-31:22",
+    "open": 9.93,
+    "dayLow": 9.52,
+    "dayHigh": 10.75,
+    "HLD": "1.23",
+    "currentPrice": 10.28,
+    "previousClose": 11.46,
+    "volume": 91295110,
+    "averageVolume": 24478386,
+    "tr": "1.94",
+    "Rvol": 3.729621307548627,
+    "exDividendDate": 1731888000,
+    "exDivFormatted": "11/18/2024",
+    "lastDividendValue": 0.25
 }
