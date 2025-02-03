@@ -2,7 +2,7 @@
     "Seed": {
             "Funding":1000.00,
             "ProfitTakerPercent":1.02,
-            "LossToleranPercent":1.00
+            "LossTolerancePercent":1.00
             },
     "TradeEnter" :
             {
