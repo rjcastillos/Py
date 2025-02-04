@@ -11,7 +11,9 @@ from getRvol import *
 DEBUG=False
 FirstTime=False
 Headers="Date,Symbol,RVOL,ATR\n"
+DAYSBACK=20
 f_date=datetime.datetime.now().strftime("%Y-%m-%d:%H")
+FromDateSearch=(datetime.date.today()-datetime.timedelta(DAYSBACK)).strftime("%Y-%m-%d")
 tickersList="Tickers_owned.json"
 if len(sys.argv) > 1:
      ARG=sys.argv[1]

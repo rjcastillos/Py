@@ -9,7 +9,10 @@ Print=False
 OutputFile=False
 Period=14
 tickersList="../Tickers_owned.json"
+DAYSBACK=20
+FromDateSearch=(datetime.date.today()-datetime.timedelta(DAYSBACK)).strftime("%Y-%m-%d")
 f_date=datetime.datetime.now().strftime("%Y-%m-%d:%H")
+
 def jSonPrint(Myinfo):
     fData=json.dumps(Myinfo,indent=4)
     print(fData)

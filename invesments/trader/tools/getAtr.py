@@ -7,6 +7,9 @@ import datetime
 DEBUG=False
 Print=False
 OutputFile=False
+DAYSBACK=20
+f_date=datetime.datetime.now().strftime("%Y-%m-%d:%H")
+FromDateSearch=(datetime.date.today()-datetime.timedelta(DAYSBACK)).strftime("%Y-%m-%d")
 Period=14
 tickersList="../Tickers_owned.json"
 
@@ -18,7 +21,7 @@ def gATR(Tickers):
     for Ticker in Tickers:
         if DEBUG: print("->",Ticker)
         import yfinance as yf
-        data=yf.download(Ticker)
+        data=yf.download(Ticker,start=FromDateSearch)
         df=data.tail(Period+1)
         #print(df)
         import pandas as pd

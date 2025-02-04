@@ -36,27 +36,18 @@ import sys
 import json
 from pprint import pprint
 from TradeGoals_9 import *
+from decnum import *
 DEBUG=False
 #
 #Functions
 #
 def Usage():
         print ("Usage : {Num A} -- Mandatory")
-        print ("        {Num B} -- Mandatory")
+        print ("      : {Num B} -- Mandatory")
+        print ("      : {Num C} -- If Extention")
         quit()
-def DecPlaces(MyP):
-        DecIn=str(MyP)
-        print("Price str =",DecIn)
-        Dec=DecIn.split('.')
-        MyNumDec=5
-        if int(MyP) > 1000 :
-            if len(Dec) ==1:  ## Passeed is 99 therefore  Default to .2f
-                print("Price ${} does not contains decimals >> assiging .2f by Default".format(MyP))
-            elif len(Dec) ==2:      ## Passed is 99.9 0r more 99.999999
-                if len(Dec[1]) < 3 : MyNumDec=2  ## Passed is 99.9 or 99.99 Defaults to .2f
-        print("Price ${} will contain {} decimals places".format(MyP,MyNumDec))
-        return MyNumDec
-FibUP = {
+
+FibRet = {
         'aHundred':{"Multiplier":0,"value":0},
         'TwoThreeSix':{"Multiplier":0.236,"value":0},
         'ThreeEightyTwo':{"Multiplier":0.382,"value":0},
@@ -65,6 +56,18 @@ FibUP = {
         'GoldenPocket':{"Multiplier":0.65,"value":0},
         'Seven86':{"Multiplier":0.786,"value":0},
         'Zero':{"Multiplier":1,"value":0}
+        }
+
+FibExt = {
+        'aHundred':{"Multiplier":1,"value":0},
+        'TwoThreeSix':{"Multiplier":0.236,"value":0},
+        'ThreeEightyTwo':{"Multiplier":0.382,"value":0},
+        'Fifty':{"Multiplier":0.50,"value":0},
+        'SixOneEight':{"Multiplier":0.618,"value":0},
+        'GoldenPocket':{"Multiplier":0.650,"value":0},
+        'Seven86':{"Multiplier":0.786,"value":0},
+        'OnepointThreeEighttwo':{"Multiplier":1.382,"value":0},
+        'OnepointSixOneEight':{"Multiplier":1.618,"value":0}
         }
 FibDown={}
 #    print("Price received =",price)
@@ -76,31 +79,47 @@ B_=8506.7
 #
 #Analizing sys.argv to set variables according with program's options
 #
-def FibCalc(_Low,_High):
+def FibCalc(_Low,_High,_C=0):
     A_=_Low
     B_=_High
-    Myinfo={}
+    
+    Myinfo={'Retracement':{}}
+
     if __name__ == "__main__":
         print(f'Fib Retracements upTrend from  ${_Low} to ${_High}')
         print('='*50)
-    for k in FibUP.keys():
+    for k in FibRet.keys():
         # ### high-(high-Low)*Fib
-        FibUP[k]["value"]=_High-(_High-_Low)*FibUP[k]["Multiplier"]
-        Myinfo[k]=FibUP[k]['value']
+        FibRet[k]["value"]=B_-(B_-A_)*FibRet[k]["Multiplier"]
+        Myinfo['Retracement'][k]=FibRet[k]['value']
         if __name__ == "__main__":
-            print(f'{k:>25}{FibUP[k]["value"]:>25.2f}')
+            print(f'{k:>25}{FibRet[k]["value"]:>25.2f}')
+
+    if _C != 0:
+        Myinfo.update({"Extention":{}})
+        print(f'{A_=} B = {B_} and C= {_C} DIF ({_C-A_}) <{B_+(_C-A_)}>')
+        for k in FibExt.keys():
+            # ### high+(high-Low)*Fib
+            #FibExt[k]["value"]=B_+(B_-_C)*FibExt[k]["Multiplier"]
+            FibExt[k]["value"]=B_+(_C-A_)*FibExt[k]["Multiplier"]
+            #FibExt[k]["value"]=_C*FibExt[k]["Multiplier"]
+            #FibExt[k]["value"]=_C+((B_-A_)*FibExt[k]["Multiplier"])
+            Myinfo['Extention'][k]=FibExt[k]['value']
     if __name__ == "__main__":
         print('-'*50)
         print (json.dumps(Myinfo,indent=4))
     return json.dumps(Myinfo)
 
 def main():
+    C_=0
     if len(sys.argv) < 3:
         Usage()
     else:
         A_=float(sys.argv[1])
         B_=float(sys.argv[2])
-        FibCalc(A_,B_)
+        if len(sys.argv) > 3:
+            C_= float(sys.argv[3])
+        FibCalc(A_,B_,C_)
 
 #
 ####
