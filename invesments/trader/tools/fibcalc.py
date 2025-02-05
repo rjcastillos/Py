@@ -59,15 +59,17 @@ FibRet = {
         }
 
 FibExt = {
+        'OnepointSixtyFive':{"Multiplier":1.65,"value":0},
+        'OnepointSixOneEight':{"Multiplier":1.618,"value":0},
+        'OnepointThreeEighttwo':{"Multiplier":1.382,"value":0},
+        'OneTwentySeven':{"Multiplier":1.272,"value":0},
         'aHundred':{"Multiplier":1,"value":0},
         'TwoThreeSix':{"Multiplier":0.236,"value":0},
-        'ThreeEightyTwo':{"Multiplier":0.382,"value":0},
-        'Fifty':{"Multiplier":0.50,"value":0},
-        'SixOneEight':{"Multiplier":0.618,"value":0},
-        'GoldenPocket':{"Multiplier":0.650,"value":0},
         'Seven86':{"Multiplier":0.786,"value":0},
-        'OnepointThreeEighttwo':{"Multiplier":1.382,"value":0},
-        'OnepointSixOneEight':{"Multiplier":1.618,"value":0}
+        'ZeroSixtyFive':{"Multiplier":0.650,"value":0},
+        'SixOneEight':{"Multiplier":0.618,"value":0},
+        'Fifty':{"Multiplier":0.50,"value":0},
+        'ThreeEightyTwo':{"Multiplier":0.382,"value":0}
         }
 FibDown={}
 #    print("Price received =",price)
@@ -97,13 +99,11 @@ def FibCalc(_Low,_High,_C=0):
 
     if _C != 0:
         Myinfo.update({"Extention":{}})
-        print(f'{A_=} B = {B_} and C= {_C} DIF ({_C-A_}) <{B_+(_C-A_)}>')
         for k in FibExt.keys():
             # ### high+(high-Low)*Fib
-            #FibExt[k]["value"]=B_+(B_-_C)*FibExt[k]["Multiplier"]
-            FibExt[k]["value"]=B_+(_C-A_)*FibExt[k]["Multiplier"]
-            #FibExt[k]["value"]=_C*FibExt[k]["Multiplier"]
-            #FibExt[k]["value"]=_C+((B_-A_)*FibExt[k]["Multiplier"])
+            if DEBUG: print(f'{B_=}  {A_=} {B_-A_} equals {_C+(B_-A_)} Multiply by {FibExt[k]["Multiplier"]}')
+            SwingRange=B_-A_ ##Calculated just to keep track of where the numbers are coming from
+            FibExt[k]["value"]=_C+SwingRange*FibExt[k]["Multiplier"]
             Myinfo['Extention'][k]=FibExt[k]['value']
     if __name__ == "__main__":
         print('-'*50)
