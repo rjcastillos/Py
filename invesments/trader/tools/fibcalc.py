@@ -64,12 +64,12 @@ FibExt = {
         'OnepointThreeEighttwo':{"Multiplier":1.382,"value":0},
         'OneTwentySeven':{"Multiplier":1.272,"value":0},
         'aHundred':{"Multiplier":1,"value":0},
-        'TwoThreeSix':{"Multiplier":0.236,"value":0},
         'Seven86':{"Multiplier":0.786,"value":0},
         'ZeroSixtyFive':{"Multiplier":0.650,"value":0},
         'SixOneEight':{"Multiplier":0.618,"value":0},
         'Fifty':{"Multiplier":0.50,"value":0},
-        'ThreeEightyTwo':{"Multiplier":0.382,"value":0}
+        'ThreeEightyTwo':{"Multiplier":0.382,"value":0},
+        'TwoThreeSix':{"Multiplier":0.236,"value":0}
         }
 FibDown={}
 #    print("Price received =",price)
