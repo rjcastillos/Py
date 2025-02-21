@@ -4,7 +4,7 @@
 #For now only supports one TIcker at the time.
 import datetime
 
-DEBUG=False
+DEBUG=True
 Print=False
 OutputFile=False
 DAYSBACK=20

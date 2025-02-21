@@ -435,4 +435,38 @@
     "exDividendDate": 1726099200,
     "exDivFormatted": "09/12/2024",
     "lastDividendValue": 0.01
+}{
+    "symbol": "NVDA",
+    "shortName": "NVIDIA Corporation",
+    "Date": "2025-02-12:20",
+    "open": 130.01,
+    "dayLow": 129.08,
+    "dayHigh": 132.24,
+    "HLD": "3.16",
+    "currentPrice": 130.705,
+    "previousClose": 132.8,
+    "volume": 115361200,
+    "averageVolume": 245639795,
+    "tr": "3.72",
+    "Rvol": 0.4696356304970862,
+    "exDividendDate": 1726099200,
+    "exDivFormatted": "09/12/2024",
+    "lastDividendValue": 0.01
+}{
+    "symbol": "PFE",
+    "shortName": "Pfizer, Inc.",
+    "Date": "2025-02-12:21",
+    "open": 25.475,
+    "dayLow": 25.17,
+    "dayHigh": 25.615,
+    "HLD": "0.44",
+    "currentPrice": 25.5064,
+    "previousClose": 25.53,
+    "volume": 21333878,
+    "averageVolume": 42775755,
+    "tr": "0.44",
+    "Rvol": 0.49873761433316605,
+    "exDividendDate": 1737676800,
+    "exDivFormatted": "01/24/2025",
+    "lastDividendValue": 0.43
 }

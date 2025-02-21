@@ -130,6 +130,7 @@ def addTrade(Action, Ticker,Price,Qty,Commission,Direction,Strategy,DateIn):
         df.at[Ticker,'Qty']=Position['Size']
         df.at[Ticker,'Invested']=Total
         DivAmt=float(df.loc[Ticker,'Div'])*float(df.loc[Ticker,'Qty'])
+        if DEBUG: print(f' Paid Div <{float(df.loc[Ticker,"Div"])}> * Qty <{float(df.loc[Ticker,"Qty"])}> ')
         df.at[Ticker,'DivAmnt']=DivAmt
         json_file=df.to_json(orient="index")
         with open ("data.json","w") as o:

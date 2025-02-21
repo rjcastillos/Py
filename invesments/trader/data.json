@@ -1,1 +1,723 @@
-{"O":{"name":"Realty Income Corporation (O)","Ticker":"O","Div":0.263,"Price":55.64,"Periodicity":"M","Qty":0,"NextExDate":"02\/03\/2025","Positions":[{"Direction":"","Size":0.0}],"Trades":[{"On":false,"Strategy":"","Qty":0.0,"Direction":"","DateIn":"","PriceIn":0.0,"Commission":1.0,"DateOut":"","PriceOut":""}],"Invested":null,"DivAmnt":null},"PFE":{"name":"Pfizer Inc. (PFE)","Ticker":"PFE","Div":0.43,"Price":26.22,"Periodicity":"Q","Qty":30,"NextExDate":"05\/09\/2025","Positions":[{"Direction":"Long","Size":30.0,"AvgPrice":26.23}],"Trades":[{"On":true,"Strategy":"","Qty":10.0,"Direction":"Long","DateIn":"20250104","PriceIn":26.68,"Commission":1.0,"DateOut":"","PriceOut":""},{"On":false,"Strategy":"SniperNine","Qty":"10","Direction":"Long","DateIn":"2025-01-16:15:52","PriceIn":"26.01","Commission":1.0,"DateOut":"","PriceOut":""},{"On":false,"Strategy":"SniperNine","Qty":"23","Direction":"Long","DateIn":"2025-01-21:18:14","PriceIn":"26.52","Commission":1.0,"DateOut":"","PriceOut":0},{"On":false,"Strategy":"SniperNine","Qty":"12","Direction":"Long","DateIn":"2025-01-22:19:54","PriceIn":"26.23","Commission":1.0,"DateOut":"","PriceOut":0},{"On":false,"Strategy":"SniperNine","Qty":"5","Direction":"Long","DateIn":"2025-01-22:21:56","PriceIn":"26","Commission":1.0,"DateOut":"","PriceOut":0},{"On":false,"Strategy":"SniperNine","Qty":"40","Direction":"Short","DateIn":"2025-01-29:18:05","PriceIn":"26.86","Commission":1.0,"DateOut":"","PriceOut":0},{"On":true,"Strategy":"SniperNine","Qty":"10","Direction":"Long","DateIn":"2025-02-04:15:28","PriceIn":"26.10","Commission":1.0,"DateOut":"","PriceOut":0},{"On":true,"Strategy":"SniperNine","Qty":"10","Direction":"Long","DateIn":"2025-02-04:16:06","PriceIn":"26.15","Commission":1.0,"DateOut":"","PriceOut":0}],"Invested":767.92,"DivAmnt":12.9},"NVDA":{"name":"NVIDIA Corporation","Ticker":"NVDA","Div":0.1,"Price":137.9,"Periodicity":"Q","Qty":43,"NextExDate":"03\/05\/2025","Positions":[{"Direction":"Long","Size":43.0,"AvgPrice":128.5191860465}],"Trades":[{"On":false,"Strategy":"SniperNine","Qty":"4","Direction":"Long","DateIn":"2025-01-30:15:44","PriceIn":"121.75","Commission":1.0,"DateOut":"","PriceOut":0},{"On":true,"Strategy":"SniperNine","Qty":"23","Direction":"Long","DateIn":"2025-02-06:22:10","PriceIn":"128.675","Commission":1.0,"DateOut":"","PriceOut":0},{"On":true,"Strategy":"SniperNine","Qty":"20","Direction":"Long","DateIn":"2025-02-06:22:10","PriceIn":"128.24","Commission":1.0,"DateOut":"","PriceOut":0}],"Invested":5526.325,"DivAmnt":4.3},"AGNC":{"name":"AGNC Investment Corp. (AGNC)","Ticker":"AGNC","Div":0.12,"Price":9.35,"Periodicity":"M","Qty":10,"NextExDate":"Jan 31 2025","Positions":[{"Direction":"Long","Size":10.0,"AvgPrice":6.658}],"Trades":[{"On":true,"Strategy":"LF","Qty":50,"Direction":"Long","DateIn":"","PriceIn":9.28,"Commission":"1.0","DateOut":"","PriceOut":""},{"On":true,"Strategy":"SniperNine","Qty":"40","Direction":"Short","DateIn":"2025-01-29:21:37","PriceIn":"9.935","Commission":"1.02","DateOut":"","PriceOut":0}],"Invested":66.58,"DivAmnt":1.2},"OXLC":{"name":"Oxford Lane Capital Corp. (OXLC)","Ticker":"OXLC","Div":0.09,"Price":5.07,"Periodicity":"M","Qty":700,"NextExDate":"20250117","Positions":[{"Direction":"Long","Size":700,"AvgPrice":5.15}],"Trades":[{"On":true,"Strategy":"LF","Qty":700,"Direction":"Long","DateIn":"","PriceIn":5.15,"DateOut":"","PriceOut":""}],"Invested":null,"DivAmnt":63.0},"QYLD":{"name":"Global X NASDAQ 100 Covered Call ETF (QYLD)","Ticker":"QYLD","Div":0.3399,"Price":18.64,"Periodicity":"M","Qty":179,"NextExDate":"20241230","Positions":[{"Direction":"","Size":0.0}],"Trades":[{"On":true,"Strategy":"LF","Qty":0,"Direction":"Long","DateIn":"","PriceIn":20.61,"DateOut":"","PriceOut":""}],"Invested":null,"DivAmnt":60.0},"OXY":{"name":"Occidental Petroleum Corporation (OXY)","Ticker":"OXY","Div":0.22,"Price":51.42,"Periodicity":"Q","Qty":60,"NextExDate":"20250310","Positions":[{"Direction":"Long","Size":60.0,"AvgPrice":50.7933333333}],"Trades":[{"On":true,"Strategy":"LF","Qty":10,"Direction":"Long","DateIn":"20250110","PriceIn":51.52,"Commission":1.0,"DateOut":"","PriceOut":""},{"On":false,"Strategy":"LF","Qty":10,"Direction":"Long","DateIn":"20250110","PriceIn":51.24,"Commission":1.0,"DateOut":"","PriceOut":""},{"On":false,"Strategy":"LF","Qty":10,"Direction":"Long","DateIn":"20250110","PriceIn":51.24,"Commission":1.0,"DateOut":"","PriceOut":51.46},{"On":true,"Strategy":"SniperNine","Qty":"10","Direction":"Long","DateIn":"2025-01-15:18:59","PriceIn":"51.90","Commission":1.0,"DateOut":"","PriceOut":""},{"On":true,"Strategy":"SniperNine","Qty":"10","Direction":"Long","DateIn":"2025-01-15:19:01","PriceIn":"51.98","Commission":1.0,"DateOut":"","PriceOut":""},{"On":true,"Strategy":"SniperNine","Qty":"10","Direction":"Long","DateIn":"2025-01-21:14:54","PriceIn":"51.60","Commission":1.0,"DateOut":"","PriceOut":0},{"On":true,"Strategy":"SniperNine","Qty":"10","Direction":"Long","DateIn":"2025-01-21:15:56","PriceIn":"50.65","Commission":1.0,"DateOut":"","PriceOut":0},{"On":true,"Strategy":"SniperNine","Qty":"10","Direction":"Long","DateIn":"2025-02-03:16:11","PriceIn":"46.51","Commission":1.0,"DateOut":"","PriceOut":0}],"Invested":3047.6,"DivAmnt":13.2},"KO":{"name":"The Coca-Cola Company (KO)","Ticker":"KO","Div":0.48,"Price":62.12,"Periodicity":"Q","Qty":0,"NextExDate":"","Positions":[{"Direction":"Long","Size":0.0,"AvgPrice":0}],"Trades":[{"On":false,"Strategy":"HF","Qty":33,"Direction":"Long","DateIn":"","PriceIn":62.72,"Commission":1.0,"DateOut":"","PriceOut":""},{"On":false,"Strategy":"SniperNine","Qty":"33","Direction":"Short","DateIn":"2025-01-21:16:32","PriceIn":"62.98","Commission":"1.06","DateOut":"","PriceOut":0}],"Invested":2070.76,"DivAmnt":0.0},"GSG":{"name":"iShares GSCI Commodity-Indexed","Ticker":"GSG","Div":0.0,"Price":0.0,"Periodicity":"Q","Qty":0,"NextExDate":"","Positions":[{"Direction":"","Size":0.0}],"Trades":[{"On":false,"Strategy":"SniperNine","Qty":0,"Direction":"Long","DateIn":"","PriceIn":0.0,"Commission":0.0,"DateOut":"","PriceOut":""}],"Invested":null,"DivAmnt":null},"HOOD":{"name":"Robinhood Markets, Inc.","Ticker":"HOOD","Div":0.0,"Price":50.58,"Periodicity":"Q","Qty":4,"NextExDate":"","Positions":[{"Direction":"","Size":0.0}],"Trades":[{"On":true,"Strategy":"SniperNine","Qty":4,"Direction":"Long","DateIn":"20250108","PriceIn":50.58,"Commission":0.0,"DateOut":"","PriceOut":""}],"Invested":null,"DivAmnt":null},"SPCE":{"name":"Virgin Galactic Holdings, Inc.","Ticker":"SPCE","Div":0.0,"Price":19.81,"Periodicity":"Q","Qty":140,"NextExDate":"","Positions":[{"Direction":"Long","Size":140.0,"AvgPrice":17.6378571429}],"Trades":[{"On":true,"Strategy":"HF","Qty":60,"Direction":"Long","DateIn":"20250108","PriceIn":5.83,"Commission":0.0,"DateOut":"","PriceOut":""},{"On":true,"Strategy":"split 1\/20","Qty":60,"Direction":"Long","DateIn":"20240617","PriceIn":33.7,"Commission":0.0,"DateOut":"","PriceOut":""},{"On":true,"Strategy":"SniperNine","Qty":"10","Direction":"Long","DateIn":"2025-01-27:16:01","PriceIn":"5.05","Commission":1.0,"DateOut":"","PriceOut":0},{"On":true,"Strategy":"SniperNine","Qty":"10","Direction":"Long","DateIn":"2025-01-29:17:02","PriceIn":"4.50","Commission":1.0,"DateOut":"","PriceOut":0}],"Invested":2469.3,"DivAmnt":0.0},"TLT":{"name":"iShares 20+ Year Treasury Bond","Ticker":"TLT","Div":0.32502,"Price":86.65,"Periodicity":"M","Qty":0,"NextExDate":"02\/03\/2025","Positions":[{"Direction":"Long","Size":0.0,"AvgPrice":0}],"Trades":[{"On":false,"Strategy":"LT","Qty":10,"Direction":"Long","DateIn":"2025-01-06 15:33:15","PriceIn":87.08,"Commission":1.0,"DateOut":"2025-01-15 17:17:15","PriceOut":"86.63"},{"On":false,"Strategy":"LT","Qty":10,"Direction":"Long","DateIn":"2025.01.06 09:40:08","PriceIn":86.93,"Commission":1.0,"DateOut":"2025-01-15 17:17:15","PriceOut":"86.63"},{"On":false,"Strategy":"LT","Qty":10,"Direction":"Long","DateIn":"2025-01-07 20:58:56","PriceIn":85.94,"Commission":1.0,"DateOut":"2025-01-15 17:17:15","PriceOut":"86.63"},{"On":false,"Strategy":"SniperNine","Qty":"10","Direction":"Long","DateIn":"2025-01-14:19:14","PriceIn":"85.24","Commission":1.0,"DateOut":"2025-01-15 17:17:15","PriceOut":"86.63"},{"On":false,"Strategy":"SniperNine","Qty":"10","Direction":"Long","DateIn":"2025-01-16:15:38","PriceIn":"86.48","Commission":1.0,"DateOut":"","PriceOut":""},{"On":false,"Strategy":"SniperNine","Qty":"10","Direction":"Short","DateIn":"2025-01-21:16:29","PriceIn":"87.70","Commission":1.0,"DateOut":"","PriceOut":0}],"Invested":865.8,"DivAmnt":0.0},"VTRS":{"name":"Viatris Inc.","Ticker":"VTRS","Div":0.0,"Price":11.96,"Periodicity":"Q","Qty":0,"NextExDate":"","Positions":[{"Direction":"","Size":0.0}],"Trades":[{"On":false,"Strategy":"SniperNine","Qty":0,"Direction":"Long","DateIn":"","PriceIn":0.0,"Commission":0.0,"DateOut":"","PriceOut":""}],"Invested":0.0,"DivAmnt":0.0},"MO":{"name":"","Ticker":"MO","Div":1.02,"Price":0.0,"Periodicity":"Q","Qty":10,"NextExDate":"2025-03-25","Positions":[{"Direction":"Long","Size":10.0,"AvgPrice":47.6}],"Trades":[{"On":true,"Strategy":"SniperNine","Qty":"10","Direction":"Long","DateIn":"2025-01-14:16:26","PriceIn":"50.98","Commission":1.0,"DateOut":"","PriceOut":""},{"On":true,"Strategy":"SniperNine","Qty":"10","Direction":"Long","DateIn":"2025-01-15:15:14","PriceIn":"51.27","Commission":1.0,"DateOut":"","PriceOut":""},{"On":true,"Strategy":"SniperNine","Qty":"10","Direction":"Long","DateIn":"2025-01-21:16:15","PriceIn":"51.61","Commission":1.0,"DateOut":"","PriceOut":0},{"On":true,"Strategy":"SniperNine","Qty":"10","Direction":"Long","DateIn":"2025-01-23:17:05","PriceIn":"50.97","Commission":1.0,"DateOut":"","PriceOut":0},{"On":true,"Strategy":"SniperNine","Qty":"30","Direction":"Short","DateIn":"2025-01-27:11:29","PriceIn":"52.51","Commission":1.0,"DateOut":"","PriceOut":0}],"Invested":476.0,"DivAmnt":10.2},"AAPL":{"name":"","Ticker":"AAPL","Div":0.0,"Price":0.0,"Periodicity":"Q","Qty":0,"NextExDate":"","Positions":[{"Direction":"Long","Size":0.0,"AvgPrice":0}],"Trades":[{"On":false,"Strategy":"SniperNine","Qty":"11","Direction":"Long","DateIn":"2025-01-21:19:47","PriceIn":"221.21","Commission":1.0,"DateOut":"2025-01-22:18:47","PriceOut":0},{"On":false,"Strategy":"SniperNine","Qty":"11","Direction":"Long","DateIn":"2025-01-21:20:40","PriceIn":"220.76","Commission":1.0,"DateOut":"2025-01-23:18:43","PriceOut":0},{"On":false,"Strategy":"SniperNine","Qty":"6","Direction":"Short","DateIn":"2025-01-23:17:07","PriceIn":"224.81","Commission":1.0,"DateOut":"2025-01-23:18:43","PriceOut":0},{"On":false,"Strategy":"SniperNine","Qty":"16","Direction":"Short","DateIn":"2025-01-23:18:41","PriceIn":"223.40","Commission":"1.10","DateOut":"2025-01-23:18:43","PriceOut":0}],"Invested":61.69,"DivAmnt":0.0},"SOL":{"name":"","Ticker":"SOL","Div":0.0,"Price":0.0,"Periodicity":"Q","Qty":4,"NextExDate":"","Positions":[{"Direction":"Long","Size":4.0,"AvgPrice":223.31055}],"Trades":[{"On":true,"Strategy":"SniperNine","Qty":"2","Direction":"Long","DateIn":"2025-02-04:16:53","PriceIn":"221","Commission":"0.884","DateOut":"","PriceOut":0},{"On":true,"Strategy":"SniperNine","Qty":"1","Direction":"Long","DateIn":"2025-02-04:16:54","PriceIn":"223.86","Commission":"0.447","DateOut":"","PriceOut":0},{"On":true,"Strategy":"SniperNine","Qty":"1","Direction":"Long","DateIn":"2025-02-04:16:55","PriceIn":"225.60","Commission":"0.45120","DateOut":"","PriceOut":0}],"Invested":893.2422,"DivAmnt":0.0}}
+{
+  "O": {
+    "name": "Realty Income Corporation (O)",
+    "Ticker": "O",
+    "Div": 0.263,
+    "Price": 55.64,
+    "Periodicity": "M",
+    "Qty": 0,
+    "NextExDate": "02/03/2025",
+    "Positions": [{ "Direction": "", "Size": 0.0 }],
+    "Trades": [
+      {
+        "On": false,
+        "Strategy": "",
+        "Qty": 0.0,
+        "Direction": "",
+        "DateIn": "",
+        "PriceIn": 0.0,
+        "Commission": 1.0,
+        "DateOut": "",
+        "PriceOut": ""
+      }
+    ],
+    "Invested": null,
+    "DivAmnt": null
+  },
+  "PFE": {
+    "name": "Pfizer Inc. (PFE)",
+    "Ticker": "PFE",
+    "Div": 0.43,
+    "Price": 26.22,
+    "Periodicity": "Q",
+    "Qty": 50,
+    "NextExDate": "05/09/2025",
+    "Positions": [{ "Direction": "Long", "Size": 50.0, "AvgPrice": 26.108 }],
+    "Trades": [
+      {
+        "On": true,
+        "Strategy": "",
+        "Qty": 10.0,
+        "Direction": "Long",
+        "DateIn": "20250104",
+        "PriceIn": 26.68,
+        "Commission": 1.0,
+        "DateOut": "",
+        "PriceOut": ""
+      },
+      {
+        "On": false,
+        "Strategy": "SniperNine",
+        "Qty": "10",
+        "Direction": "Long",
+        "DateIn": "2025-01-16:15:52",
+        "PriceIn": "26.01",
+        "Commission": 1.0,
+        "DateOut": "",
+        "PriceOut": ""
+      },
+      {
+        "On": false,
+        "Strategy": "SniperNine",
+        "Qty": "23",
+        "Direction": "Long",
+        "DateIn": "2025-01-21:18:14",
+        "PriceIn": "26.52",
+        "Commission": 1.0,
+        "DateOut": "",
+        "PriceOut": 0
+      },
+      {
+        "On": false,
+        "Strategy": "SniperNine",
+        "Qty": "12",
+        "Direction": "Long",
+        "DateIn": "2025-01-22:19:54",
+        "PriceIn": "26.23",
+        "Commission": 1.0,
+        "DateOut": "",
+        "PriceOut": 0
+      },
+      {
+        "On": false,
+        "Strategy": "SniperNine",
+        "Qty": "5",
+        "Direction": "Long",
+        "DateIn": "2025-01-22:21:56",
+        "PriceIn": "26",
+        "Commission": 1.0,
+        "DateOut": "",
+        "PriceOut": 0
+      },
+      {
+        "On": false,
+        "Strategy": "SniperNine",
+        "Qty": "40",
+        "Direction": "Short",
+        "DateIn": "2025-01-29:18:05",
+        "PriceIn": "26.86",
+        "Commission": 1.0,
+        "DateOut": "",
+        "PriceOut": 0
+      },
+      {
+        "On": true,
+        "Strategy": "SniperNine",
+        "Qty": "10",
+        "Direction": "Long",
+        "DateIn": "2025-02-04:15:28",
+        "PriceIn": "26.10",
+        "Commission": 1.0,
+        "DateOut": "",
+        "PriceOut": 0
+      },
+      {
+        "On": true,
+        "Strategy": "SniperNine",
+        "Qty": "10",
+        "Direction": "Long",
+        "DateIn": "2025-02-04:16:06",
+        "PriceIn": "26.15",
+        "Commission": 1.0,
+        "DateOut": "",
+        "PriceOut": 0
+      },
+      {
+        "On": true,
+        "Strategy": "SniperNine",
+        "Qty": "10",
+        "Direction": "Long",
+        "DateIn": "2025-02-12:16:03",
+        "PriceIn": "25.26",
+        "Commission": 1.0,
+        "DateOut": "",
+        "PriceOut": 0
+      },
+      {
+        "On": true,
+        "Strategy": "SniperNine",
+        "Qty": "10",
+        "Direction": "Long",
+        "DateIn": "2025-02-20:18:34",
+        "PriceIn": "25.85",
+        "Commission": 1.0,
+        "DateOut": "",
+        "PriceOut": 0
+      }
+    ],
+    "Invested": 1305.4,
+    "DivAmnt": 21.5
+  },
+  "NVDA": {
+    "name": "NVIDIA Corporation",
+    "Ticker": "NVDA",
+    "Div": 0.01,
+    "Price": 137.9,
+    "Periodicity": "Q",
+    "Qty": 5,
+    "NextExDate": "03/05/2025",
+    "Positions": [{ "Direction": "Long", "Size": 5.0, "AvgPrice": 129.23 }],
+    "Trades": [
+      {
+        "On": false,
+        "Strategy": "SniperNine",
+        "Qty": "5",
+        "Direction": "Long",
+        "DateIn": "2025-02-08:00:17",
+        "PriceIn": "129.03",
+        "Commission": 1.0,
+        "DateOut": "",
+        "PriceOut": 0
+      }
+    ],
+    "Invested": 646.15,
+    "DivAmnt": 0.05
+  },
+  "AGNC": {
+    "name": "AGNC Investment Corp. (AGNC)",
+    "Ticker": "AGNC",
+    "Div": 0.12,
+    "Price": 9.35,
+    "Periodicity": "M",
+    "Qty": 10,
+    "NextExDate": "Jan 31 2025",
+    "Positions": [{ "Direction": "Long", "Size": 10.0, "AvgPrice": 6.658 }],
+    "Trades": [
+      {
+        "On": true,
+        "Strategy": "LF",
+        "Qty": 50,
+        "Direction": "Long",
+        "DateIn": "",
+        "PriceIn": 9.28,
+        "Commission": "1.0",
+        "DateOut": "",
+        "PriceOut": ""
+      },
+      {
+        "On": true,
+        "Strategy": "SniperNine",
+        "Qty": "40",
+        "Direction": "Short",
+        "DateIn": "2025-01-29:21:37",
+        "PriceIn": "9.935",
+        "Commission": "1.02",
+        "DateOut": "",
+        "PriceOut": 0
+      }
+    ],
+    "Invested": 66.58,
+    "DivAmnt": 1.2
+  },
+  "OXLC": {
+    "name": "Oxford Lane Capital Corp. (OXLC)",
+    "Ticker": "OXLC",
+    "Div": 0.09,
+    "Price": 5.07,
+    "Periodicity": "M",
+    "Qty": 700,
+    "NextExDate": "20250117",
+    "Positions": [{ "Direction": "Long", "Size": 700, "AvgPrice": 5.15 }],
+    "Trades": [
+      {
+        "On": true,
+        "Strategy": "LF",
+        "Qty": 700,
+        "Direction": "Long",
+        "DateIn": "",
+        "PriceIn": 5.15,
+        "DateOut": "",
+        "PriceOut": ""
+      }
+    ],
+    "Invested": null,
+    "DivAmnt": 63.0
+  },
+  "QYLD": {
+    "name": "Global X NASDAQ 100 Covered Call ETF (QYLD)",
+    "Ticker": "QYLD",
+    "Div": 0.3399,
+    "Price": 18.64,
+    "Periodicity": "M",
+    "Qty": 179,
+    "NextExDate": "20241230",
+    "Positions": [{ "Direction": "", "Size": 0.0 }],
+    "Trades": [
+      {
+        "On": true,
+        "Strategy": "LF",
+        "Qty": 0,
+        "Direction": "Long",
+        "DateIn": "",
+        "PriceIn": 20.61,
+        "DateOut": "",
+        "PriceOut": ""
+      }
+    ],
+    "Invested": null,
+    "DivAmnt": 60.0
+  },
+  "OXY": {
+    "name": "Occidental Petroleum Corporation (OXY)",
+    "Ticker": "OXY",
+    "Div": 0.22,
+    "Price": 51.42,
+    "Periodicity": "Q",
+    "Qty": 60,
+    "NextExDate": "20250310",
+    "Positions": [
+      { "Direction": "Long", "Size": 0.0, "AvgPrice": 0.0 }
+    ],
+    "Trades": [
+      {
+        "On": false,
+        "Strategy": "LF",
+        "Qty": 10,
+        "Direction": "Long",
+        "DateIn": "20250110",
+        "PriceIn": 51.52,
+        "Commission": 1.0,
+        "DateOut": "",
+        "PriceOut": ""
+      },
+      {
+        "On": false,
+        "Strategy": "SniperNine",
+        "Qty": "10",
+        "Direction": "Long",
+        "DateIn": "2025-02-03:16:11",
+        "PriceIn": "46.51",
+        "Commission": 1.0,
+        "DateOut": "",
+        "PriceOut": 0
+      }
+    ],
+    "Invested": 0.0,
+    "DivAmnt": 0.0
+  },
+  "KO": {
+    "name": "The Coca-Cola Company (KO)",
+    "Ticker": "KO",
+    "Div": 0.48,
+    "Price": 62.12,
+    "Periodicity": "Q",
+    "Qty": 0,
+    "NextExDate": "",
+    "Positions": [{ "Direction": "Long", "Size": 0.0, "AvgPrice": 0 }],
+    "Trades": [
+      {
+        "On": false,
+        "Strategy": "HF",
+        "Qty": 33,
+        "Direction": "Long",
+        "DateIn": "",
+        "PriceIn": 62.72,
+        "Commission": 1.0,
+        "DateOut": "",
+        "PriceOut": ""
+      },
+      {
+        "On": false,
+        "Strategy": "SniperNine",
+        "Qty": "33",
+        "Direction": "Short",
+        "DateIn": "2025-01-21:16:32",
+        "PriceIn": "62.98",
+        "Commission": "1.06",
+        "DateOut": "",
+        "PriceOut": 0
+      }
+    ],
+    "Invested": 2070.76,
+    "DivAmnt": 0.0
+  },
+  "GSG": {
+    "name": "iShares GSCI Commodity-Indexed",
+    "Ticker": "GSG",
+    "Div": 0.0,
+    "Price": 0.0,
+    "Periodicity": "Q",
+    "Qty": 0,
+    "NextExDate": "",
+    "Positions": [{ "Direction": "", "Size": 0.0 }],
+    "Trades": [
+      {
+        "On": false,
+        "Strategy": "SniperNine",
+        "Qty": 0,
+        "Direction": "Long",
+        "DateIn": "",
+        "PriceIn": 0.0,
+        "Commission": 0.0,
+        "DateOut": "",
+        "PriceOut": ""
+      }
+    ],
+    "Invested": null,
+    "DivAmnt": null
+  },
+  "HOOD": {
+    "name": "Robinhood Markets, Inc.",
+    "Ticker": "HOOD",
+    "Div": 0.0,
+    "Price": 50.58,
+    "Periodicity": "Q",
+    "Qty": 4,
+    "NextExDate": "",
+    "Positions": [{ "Direction": "", "Size": 0.0 }],
+    "Trades": [
+      {
+        "On": true,
+        "Strategy": "SniperNine",
+        "Qty": 4,
+        "Direction": "Long",
+        "DateIn": "20250108",
+        "PriceIn": 50.58,
+        "Commission": 0.0,
+        "DateOut": "",
+        "PriceOut": ""
+      }
+    ],
+    "Invested": null,
+    "DivAmnt": null
+  },
+  "SPCE": {
+    "name": "Virgin Galactic Holdings, Inc.",
+    "Ticker": "SPCE",
+    "Div": 0.0,
+    "Price": 19.81,
+    "Periodicity": "Q",
+    "Qty": 140,
+    "NextExDate": "",
+    "Positions": [
+      { "Direction": "Long", "Size": 140.0, "AvgPrice": 17.6378571429 }
+    ],
+    "Trades": [
+      {
+        "On": true,
+        "Strategy": "HF",
+        "Qty": 60,
+        "Direction": "Long",
+        "DateIn": "20250108",
+        "PriceIn": 5.83,
+        "Commission": 0.0,
+        "DateOut": "",
+        "PriceOut": ""
+      },
+      {
+        "On": true,
+        "Strategy": "split 1/20",
+        "Qty": 60,
+        "Direction": "Long",
+        "DateIn": "20240617",
+        "PriceIn": 33.7,
+        "Commission": 0.0,
+        "DateOut": "",
+        "PriceOut": ""
+      },
+      {
+        "On": true,
+        "Strategy": "SniperNine",
+        "Qty": "10",
+        "Direction": "Long",
+        "DateIn": "2025-01-27:16:01",
+        "PriceIn": "5.05",
+        "Commission": 1.0,
+        "DateOut": "",
+        "PriceOut": 0
+      },
+      {
+        "On": true,
+        "Strategy": "SniperNine",
+        "Qty": "10",
+        "Direction": "Long",
+        "DateIn": "2025-01-29:17:02",
+        "PriceIn": "4.50",
+        "Commission": 1.0,
+        "DateOut": "",
+        "PriceOut": 0
+      }
+    ],
+    "Invested": 2469.3,
+    "DivAmnt": 0.0
+  },
+  "TLT": {
+    "name": "iShares 20+ Year Treasury Bond",
+    "Ticker": "TLT",
+    "Div": 0.32502,
+    "Price": 86.65,
+    "Periodicity": "M",
+    "Qty": 0,
+    "NextExDate": "02/03/2025",
+    "Positions": [{ "Direction": "Long", "Size": 0.0, "AvgPrice": 0 }],
+    "Trades": [
+      {
+        "On": false,
+        "Strategy": "LT",
+        "Qty": 10,
+        "Direction": "Long",
+        "DateIn": "2025-01-06 15:33:15",
+        "PriceIn": 87.08,
+        "Commission": 1.0,
+        "DateOut": "2025-01-15 17:17:15",
+        "PriceOut": "86.63"
+      },
+      {
+        "On": false,
+        "Strategy": "LT",
+        "Qty": 10,
+        "Direction": "Long",
+        "DateIn": "2025.01.06 09:40:08",
+        "PriceIn": 86.93,
+        "Commission": 1.0,
+        "DateOut": "2025-01-15 17:17:15",
+        "PriceOut": "86.63"
+      },
+      {
+        "On": false,
+        "Strategy": "LT",
+        "Qty": 10,
+        "Direction": "Long",
+        "DateIn": "2025-01-07 20:58:56",
+        "PriceIn": 85.94,
+        "Commission": 1.0,
+        "DateOut": "2025-01-15 17:17:15",
+        "PriceOut": "86.63"
+      },
+      {
+        "On": false,
+        "Strategy": "SniperNine",
+        "Qty": "10",
+        "Direction": "Long",
+        "DateIn": "2025-01-14:19:14",
+        "PriceIn": "85.24",
+        "Commission": 1.0,
+        "DateOut": "2025-01-15 17:17:15",
+        "PriceOut": "86.63"
+      },
+      {
+        "On": false,
+        "Strategy": "SniperNine",
+        "Qty": "10",
+        "Direction": "Long",
+        "DateIn": "2025-01-16:15:38",
+        "PriceIn": "86.48",
+        "Commission": 1.0,
+        "DateOut": "",
+        "PriceOut": ""
+      },
+      {
+        "On": false,
+        "Strategy": "SniperNine",
+        "Qty": "10",
+        "Direction": "Short",
+        "DateIn": "2025-01-21:16:29",
+        "PriceIn": "87.70",
+        "Commission": 1.0,
+        "DateOut": "",
+        "PriceOut": 0
+      }
+    ],
+    "Invested": 865.8,
+    "DivAmnt": 0.0
+  },
+  "VTRS": {
+    "name": "Viatris Inc.",
+    "Ticker": "VTRS",
+    "Div": 0.0,
+    "Price": 11.96,
+    "Periodicity": "Q",
+    "Qty": 0,
+    "NextExDate": "",
+    "Positions": [{ "Direction": "", "Size": 0.0 }],
+    "Trades": [
+      {
+        "On": false,
+        "Strategy": "SniperNine",
+        "Qty": 0,
+        "Direction": "Long",
+        "DateIn": "",
+        "PriceIn": 0.0,
+        "Commission": 0.0,
+        "DateOut": "",
+        "PriceOut": ""
+      }
+    ],
+    "Invested": 0.0,
+    "DivAmnt": 0.0
+  },
+  "MO": {
+    "name": "",
+    "Ticker": "MO",
+    "Div": 1.02,
+    "Price": 0.0,
+    "Periodicity": "Q",
+    "Qty": 10,
+    "NextExDate": "2025-03-25",
+    "Positions": [{ "Direction": "Long", "Size": 10.0, "AvgPrice": 47.6 }],
+    "Trades": [
+      {
+        "On": true,
+        "Strategy": "SniperNine",
+        "Qty": "10",
+        "Direction": "Long",
+        "DateIn": "2025-01-14:16:26",
+        "PriceIn": "50.98",
+        "Commission": 1.0,
+        "DateOut": "",
+        "PriceOut": ""
+      },
+      {
+        "On": true,
+        "Strategy": "SniperNine",
+        "Qty": "10",
+        "Direction": "Long",
+        "DateIn": "2025-01-15:15:14",
+        "PriceIn": "51.27",
+        "Commission": 1.0,
+        "DateOut": "",
+        "PriceOut": ""
+      },
+      {
+        "On": true,
+        "Strategy": "SniperNine",
+        "Qty": "10",
+        "Direction": "Long",
+        "DateIn": "2025-01-21:16:15",
+        "PriceIn": "51.61",
+        "Commission": 1.0,
+        "DateOut": "",
+        "PriceOut": 0
+      },
+      {
+        "On": true,
+        "Strategy": "SniperNine",
+        "Qty": "10",
+        "Direction": "Long",
+        "DateIn": "2025-01-23:17:05",
+        "PriceIn": "50.97",
+        "Commission": 1.0,
+        "DateOut": "",
+        "PriceOut": 0
+      },
+      {
+        "On": true,
+        "Strategy": "SniperNine",
+        "Qty": "30",
+        "Direction": "Short",
+        "DateIn": "2025-01-27:11:29",
+        "PriceIn": "52.51",
+        "Commission": 1.0,
+        "DateOut": "",
+        "PriceOut": 0
+      }
+    ],
+    "Invested": 476.0,
+    "DivAmnt": 10.2
+  },
+  "AAPL": {
+    "name": "",
+    "Ticker": "AAPL",
+    "Div": 0.0,
+    "Price": 0.0,
+    "Periodicity": "Q",
+    "Qty": 0,
+    "NextExDate": "",
+    "Positions": [{ "Direction": "Long", "Size": 0.0, "AvgPrice": 0 }],
+    "Trades": [
+      {
+        "On": false,
+        "Strategy": "SniperNine",
+        "Qty": "11",
+        "Direction": "Long",
+        "DateIn": "2025-01-21:19:47",
+        "PriceIn": "221.21",
+        "Commission": 1.0,
+        "DateOut": "2025-01-22:18:47",
+        "PriceOut": 0
+      },
+      {
+        "On": false,
+        "Strategy": "SniperNine",
+        "Qty": "11",
+        "Direction": "Long",
+        "DateIn": "2025-01-21:20:40",
+        "PriceIn": "220.76",
+        "Commission": 1.0,
+        "DateOut": "2025-01-23:18:43",
+        "PriceOut": 0
+      },
+      {
+        "On": false,
+        "Strategy": "SniperNine",
+        "Qty": "6",
+        "Direction": "Short",
+        "DateIn": "2025-01-23:17:07",
+        "PriceIn": "224.81",
+        "Commission": 1.0,
+        "DateOut": "2025-01-23:18:43",
+        "PriceOut": 0
+      },
+      {
+        "On": false,
+        "Strategy": "SniperNine",
+        "Qty": "16",
+        "Direction": "Short",
+        "DateIn": "2025-01-23:18:41",
+        "PriceIn": "223.40",
+        "Commission": "1.10",
+        "DateOut": "2025-01-23:18:43",
+        "PriceOut": 0
+      }
+    ],
+    "Invested": 61.69,
+    "DivAmnt": 0.0
+  },
+  "SOL": {
+    "name": "",
+    "Ticker": "SOL",
+    "Div": 0.0,
+    "Price": 0.0,
+    "Periodicity": "Q",
+    "Qty": 4,
+    "NextExDate": "",
+    "Positions": [{ "Direction": "Long", "Size": 4.0, "AvgPrice": 223.31055 }],
+    "Trades": [
+      {
+        "On": true,
+        "Strategy": "SniperNine",
+        "Qty": "2",
+        "Direction": "Long",
+        "DateIn": "2025-02-04:16:53",
+        "PriceIn": "221",
+        "Commission": "0.884",
+        "DateOut": "",
+        "PriceOut": 0
+      },
+      {
+        "On": true,
+        "Strategy": "SniperNine",
+        "Qty": "1",
+        "Direction": "Long",
+        "DateIn": "2025-02-04:16:54",
+        "PriceIn": "223.86",
+        "Commission": "0.447",
+        "DateOut": "",
+        "PriceOut": 0
+      },
+      {
+        "On": true,
+        "Strategy": "SniperNine",
+        "Qty": "1",
+        "Direction": "Long",
+        "DateIn": "2025-02-04:16:55",
+        "PriceIn": "225.60",
+        "Commission": "0.45120",
+        "DateOut": "",
+        "PriceOut": 0
+      }
+    ],
+    "Invested": 893.2422,
+    "DivAmnt": 0.0
+  }
+}
