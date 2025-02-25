@@ -2,6 +2,7 @@
 #https://www.geeksforgeeks.org/different-ways-to-iterate-over-rows-in-pandas-dataframe/
 #from getAtr import *
 #For now only supports one TIcker at the time.
+#https://www.bajajfinserv.in/average-true-range-atr#:~:text=Average%20True%20Range%20(ATR)%3A,%2B%20TR14)%20%2F%2014
 import datetime
 
 DEBUG=False
@@ -23,7 +24,7 @@ def gATR(Tickers):
         import yfinance as yf
         data=yf.download(Ticker,start=FromDateSearch)
         df=data.tail(Period+1)
-        #print(df)
+        #print(df) at this point the DataFrame (df) is the one output if Print=True
         import pandas as pd
         import numpy as py
         if OutputFile:
@@ -35,6 +36,13 @@ def gATR(Tickers):
                 Low=float(0)
                 pClose=float(0)
                 pC=0
+                ######Adding new columns at the end of the df
+                #To insert the following calculations
+                #HLD = High - Low of the Day
+                #      HLD=High-Low
+                #HPC =  The Absolute value of the High of the Day - Previous close
+                #       HPC=abs(High-pClose)
+                
                 df.insert((len(df.columns)) , "HLD" , [py.nan]*len(df))
                 df.insert((len(df.columns)) , "HPC" , [py.nan]*len(df))
                 df.insert((len(df.columns)) , "LPC" , [py.nan]*len(df))
